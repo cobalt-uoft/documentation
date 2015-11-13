@@ -1,0 +1,96 @@
+{% extends "documentation/index.html" %}
+
+{% block parent %}Building API{% endblock %}
+{% block child %}GET buildings/list{% endblock %}
+
+{% block main %}
+<h1>GET buildings/list</h1>
+<div class="text">
+	<p>
+		Returns a list of buildings.
+	</p>
+
+	<h2>URL</h2>
+	<p>
+		<pre><code class="code-block http">https://cobalt.qas.im/api/1.0/buildings/list</code></pre>
+	</p>
+
+	<h2>Parameters</h2>
+	<p>
+		<div class="param grid-container">
+			<div class="grid-20">
+				<code>key</code>
+				<div class="sub">required</div>
+			</div>
+			<div class="grid-80">
+				Your unique API key.
+			</div>
+		</div>
+	</p>
+	<hr />
+	<p>
+		<div class="param grid-container">
+			<div class="grid-20">
+				<code>limit</code>
+				<div class="sub">optional</div>
+			</div>
+			<div class="grid-80">
+				The number of results to return, up to a maximum of 200 per request. The default value is 10.
+			</div>
+		</div>
+	</p>
+	<hr />
+	<p>
+		<div class="param grid-container">
+			<div class="grid-20">
+				<code>skip</code>
+				<div class="sub">optional</div>
+			</div>
+			<div class="grid-80">
+				The number of results to skip. The default value is 0.
+			</div>
+		</div>
+	</p>
+
+	<h2>Example</h2>
+	<p>
+		<pre><code class="code-block http">https://cobalt.qas.im/api/1.0/buildings/list?limit=2</code></pre>
+	</p>
+	<p>
+		<pre><code class="code-block json">[
+  {
+    "id":"005",
+    "code":"MS",
+    "name":"Medical Sciences Building",
+    "short_name":"MSB",
+    "campus":"UTSG",
+    "lat":43.66074,
+    "lng":-79.39373,
+    "address":{
+      "street":"1  King's College Circle",
+      "city":"Toronto",
+      "province":"ON",
+      "country":"Canada",
+      "postal":"M5S 1A8"
+    }
+  },
+  {
+    "id":"158",
+    "code":"CN",
+    "name":"Chestnut Residence and Conference Centre",
+    "short_name":"Chestnut-89",
+    "campus":"UTSG",
+    "lat":43.65431,
+    "lng":-79.38536,
+    "address":{
+      "street":"89  Chestnut Street",
+      "city":"Toronto",
+      "province":"ON",
+      "country":"Canada",
+      "postal":"M5G 1R1"
+    }
+  }
+]</code></pre>
+	</p>
+</div>
+{% endblock %}

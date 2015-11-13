@@ -1,0 +1,58 @@
+{% extends "documentation/index.html" %}
+
+{% block parent %}Getting Started{% endblock %}
+{% block child %}Contributing{% endblock %}
+
+{% block main %}
+<h1>Contributing</h1>
+<div class="text">
+	<p>
+		Cobalt is an open source community. We encourage you to join us and help contribute.
+	</p>
+
+	<h2>Repositories</h2>
+	<p>
+		<a href="https://github.com/cobalt-uoft/cobalt">Cobalt</a>: The web service that powers the web APIs. Built with Node.js and interfaces with MongoDB for high performance querying over JSON-like data structures.
+	</p>
+	<p>
+		<a href="https://github.com/cobalt-uoft/uoft-scrapers">UofT Scrapers</a>: The web scraping modules that populate Cobalt's databases. Built with Python and also distributed as a PyPI module.
+	</p>
+
+	<h2>Branching strategy</h2>
+	<p>
+		For all repositories, there is one <code>master</code> branch. For each stable release, a new tag is created (ex. <code>0.1.0</code>).
+	</p>
+
+	<h2>Issue tracker</h2>
+	<p>
+		We use GitHub issue tracking. Each repository will have outstanding issues/suggestions listed in the Issues tab.
+	</p>
+
+	<h2>Pull requests</h2>
+	<p>
+		Each pull request should only contain one new feature/improvement, and should always be submitted to the <code>master</code> branch.
+	</p>
+
+	<h2>Code style</h2>
+	<p>
+		Please make sure that any pull request you submit abides by the code style guides mentioned below.
+	</p>
+	<p>
+		For Javascript, we follow <a href="https://docs.npmjs.com/misc/coding-style">npm</a>'s code style.
+	</p>
+	<p>
+		For Python, we follow the <a href="https://www.python.org/dev/peps/pep-0008/">PEP 0008</a> code style.
+	</p>
+	<!-- p>
+		For PHP, we follow the <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> code style.
+	</p -->
+	<p>
+		If you find any incosistencies in the current codebase, please do bring it up and feel free to submit a pull request fixing it.
+	</p>
+
+	<h2>Communication</h2>
+	<p>
+		We use <a href="https://cobalt-uoft.slack.com">Slack</a> for team communication. Join us!
+	</p>
+</div>
+{% endblock %}

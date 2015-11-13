@@ -1,0 +1,33 @@
+{% extends "documentation/index.html" %}
+
+{% block parent %}Building API{% endblock %}
+{% block child %}Introduction{% endblock %}
+
+{% block main %}
+<h1>Building API</h1>
+<div class="text">
+	<p>
+		Campus building API with geographic location information.
+	</p>
+
+	<h2>Format</h2>
+	<p>
+		<pre><code class="code-block json">{
+  "id":String,
+  "code":String,
+  "name":String,
+  "short_name":String,
+  "campus":String,
+  "lat":Number,
+  "lng":Number,
+  "address":{
+    "street":String,
+    "city":String,
+    "province":String,
+    "country":String,
+    "postal":String
+  }
+}</code></pre>
+	</p>
+</div>
+{% endblock %}

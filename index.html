@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}{% block child %}{% endblock %} - {% block parent %}{% endblock %} - Documentation{% endblock %}
+
+{% block body %}
+<div class="docs" id="docs">
+  <div class="content grid-container">
+    <div id="doc_title" class="sidebar-header grid-100">
+      <div class="name">{{ block('parent') }}: <span class="small">{{ block('child') }}</span></div>
+      <div id="downarrow" class="arrow"></div>
+    </div>
+    <div class="sidebar grid-25">
+      <div id="uparrow" class="arrow expanded"></div>
+      <strong {% if active in ["introduction", "authenticating", "self-hosting", "contributing"] %}class="active"{% endif %}>Getting Started</strong>
+      <div class="group">
+        <a href="{{ path_for('introduction') }}" {% if active == "introduction" %}class="active"{% endif %}>Introduction</a>
+        <a href="{{ path_for('authenticating') }}" {% if active == "authenticating" %}class="active"{% endif %}>Authenticating</a>
+        <a href="{{ path_for('self-hosting') }}" {% if active == "self-hosting" %}class="active"{% endif %}>Self hosting</a>
+        <a href="{{ path_for('contributing') }}" {% if active == "contributing" %}class="active"{% endif %}>Contributing</a>
+      </div>
+
+      <strong {% if active in ["course-api/introduction", "course-api/list", "course-api/show", "course-api/search", "course-api/filter"] %}class="active"{% endif %}>Course API</strong>
+      <div class="group">
+        <a href="{{ path_for('course-api/introduction') }}" {% if active == "course-api/introduction" %}class="active"{% endif %}>Introduction</a>
+        <a href="{{ path_for('course-api/list') }}" {% if active == "course-api/list" %}class="active"{% endif %}>GET courses/list</a>
+        <a href="{{ path_for('course-api/show') }}" {% if active == "course-api/show" %}class="active"{% endif %}>GET courses/show/:id</a>
+        <a href="{{ path_for('course-api/search') }}" {% if active == "course-api/search" %}class="active"{% endif %}>GET courses/search</a>
+        <a href="{{ path_for('course-api/filter') }}" {% if active == "course-api/filter" %}class="active"{% endif %}>GET courses/filter</a>
+      </div>
+
+      <strong {% if active in ["building-api/introduction", "building-api/list", "building-api/show", "building-api/search"] %}class="active"{% endif %}>Building API</strong>
+      <div class="group">
+        <a href="{{ path_for('building-api/introduction') }}" {% if active == "building-api/introduction" %}class="active"{% endif %}>Introduction</a>
+        <a href="{{ path_for('building-api/list') }}" {% if active == "building-api/list" %}class="active"{% endif %}>GET buildings/list</a>
+        <a href="{{ path_for('building-api/show') }}" {% if active == "building-api/show" %}class="active"{% endif %}>GET buildings/show/:id</a>
+        <a href="{{ path_for('building-api/search') }}" {% if active == "building-api/search" %}class="active"{% endif %}>GET buildings/search</a>
+      </div>
+    </div>
+    <div class="main grid-75">
+      {% block main %}{% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}
