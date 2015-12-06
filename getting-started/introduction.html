@@ -1,37 +1,17 @@
-{% extends "documentation/index.html" %}
+# Getting started
 
-{% block parent %}Getting Started{% endblock %}
-{% block child %}Introduction{% endblock %}
+Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
-{% block main %}
-<h1>Getting started</h1>
-<div class="text">
-	<p>
-		Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
-	</p>
-	<p>
-		The goal with Cobalt is to foster a culture of open data at the university. Cobalt's web APIs are free to use and also free to <a href="{{ path_for('contributing') }}">contribute</a> to.
-	</p>
+The goal with Cobalt is to foster a culture of open data at the university. Cobalt's web APIs are free to use and also free to [contribute](./contributing.md) to.
 
-	<h2>How to start</h2>
-	<p>
-		Cobalt's web APIs are hosted at the following URL:
-	</p>
-	<p>
-		<pre><code class="code-block http">https://cobalt.qas.im/api/1.0/</code></pre>
-	</p>
-	<p>
-		{% if logged_in %}
-		You will need to authenticate your requests with an API key.
-		{% else %}
-		In order to authenticate your requests, you will need to <a href="{{ path_for('signup') }}">sign up</a> and receive a unique API key.
-		{% endif %}
-		For more information, refer to the <a href="{{ path_for('authenticating') }}">authenticating</a> guide.
-	</p>
+## How to start
 
-	<h2>Suggestions</h2>
-	<p>
-		If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an issue on the <a href="https://github.com/cobalt-uoft/cobalt/issues">GitHub repository</a>.
-	</p>
-</div>
-{% endblock %}
+Cobalt's web APIs are hosted at the following URL:
+
+    https://cobalt.qas.im/api/1.0/
+
+You will need to authenticate your requests with an API key. For more information, refer to the [authenticating]({{ path_for('authenticating') }}) guide.
+
+## Suggestions
+
+If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an issue on the [GitHub repository](https://github.com/cobalt-uoft/cobalt/issues).
