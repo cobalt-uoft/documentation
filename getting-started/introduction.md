@@ -8,9 +8,11 @@ The goal with Cobalt is to foster a culture of open data at the university. Coba
 
 Cobalt's web APIs are hosted at the following URL:
 
-    https://cobalt.qas.im/api/1.0/
+```
+https://cobalt.qas.im/api/1.0/
+```
 
-You will need to authenticate your requests with an API key. For more information, refer to the [authenticating]({{ path_for('authenticating') }}) guide.
+You will need to authenticate your requests with an API key. For more information, refer to the [authenticating](./authenticating.md) guide.
 
 ## Suggestions
 

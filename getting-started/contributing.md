@@ -24,7 +24,7 @@ Each pull request should only contain one new feature/improvement, and should al
 
 Please make sure that any pull request you submit abides by the code style guides mentioned below.
 
-For Javascript, we follow the [JavaScript Standard](http://standardjs.com/) code style.
+For JavaScript, we follow the [JavaScript Standard](http://standardjs.com/) code style.
 
 For Python, we follow the [PEP 0008](https://www.python.org/dev/peps/pep-0008/) code style.
 
