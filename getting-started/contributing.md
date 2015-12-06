@@ -8,6 +8,8 @@ Cobalt is an open source community. We encourage you to join us and help contrib
 
 [UofT Scrapers](https://github.com/cobalt-uoft/uoft-scrapers): The web scraping modules that populate Cobalt's databases. Built with Python and also distributed as a PyPI module.
 
+[Cobalt Documentation](https://github.com/cobalt-uoft/documentation): Documentation for Cobalt, written in Markdown. Readable from within GitHub and on the [website](https://cobalt.qas.im/documentation).
+
 ## Branching strategy
 
 For all repositories, there is one `master` branch. For each stable release, a new tag is created (ex. `0.1.0`).
