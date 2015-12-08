@@ -12,8 +12,8 @@ https://cobalt.qas.im/api/1.0/courses/list
 
 <div class="param grid-container">
   <div class="grid-20">
-    `key`
-    _optional_
+    <code>key</code>
+    <i>required</i>
   </div>
   <div class="grid-80">
     Your unique API key.
@@ -22,8 +22,8 @@ https://cobalt.qas.im/api/1.0/courses/list
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-`limit`
-_optional_
+    <code>limit</code>
+    <i>optional</i>
   </div>
   <div class="grid-80">
     The number of results to return, up to a maximum of 100 per request. The default value is 10.
@@ -32,8 +32,8 @@ _optional_
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-`skip`
-_optional_
+    <code>skip</code>
+    <i>optional</i>
   </div>
   <div class="grid-80">
     The number of results to skip. The default value is 0.
@@ -42,13 +42,16 @@ _optional_
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-`sort`
-_optional_
+    <code>sort</code>
+    <i>optional</i>
   </div>
   <div class="grid-80">
-The sorting procedure to be used on the returned list. A `+` before a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space.<br />(eg. `+id -department`)
-
-The default value is `+id` (sort by id, ascending).
+    <p>
+      The sorting procedure to be used on the returned list. A <code>+</code> before a parameter implies ascending, and a <code>-</code> implies descending. You can also stack procedures, separating them with a space.<br />(eg. <code>+id -department</code>)
+    </p>
+    <p>
+      The default value is <code>+id</code> (sort by id, ascending).
+    </p>
   </div>
 </div>
 
