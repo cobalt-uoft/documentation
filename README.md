@@ -4,8 +4,6 @@ Cobalt is a collection of open data web APIs that allow you to interface with pu
 
 The goal with Cobalt is to foster a culture of open data at the university. Cobalt's web APIs are free to use and also free to [contribute](./getting-started/contributing.md) to.
 
-## Navigation
-
 #### Getting started
 
 * [Introduction](./getting-started/introduction.md)
