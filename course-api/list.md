@@ -22,8 +22,8 @@ https://cobalt.qas.im/api/1.0/courses/list
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-    `limit`
-    _optional_
+`limit`
+_optional_
   </div>
   <div class="grid-80">
     The number of results to return, up to a maximum of 100 per request. The default value is 10.
@@ -32,8 +32,8 @@ https://cobalt.qas.im/api/1.0/courses/list
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-    `skip`
-    _optional_
+`skip`
+_optional_
   </div>
   <div class="grid-80">
     The number of results to skip. The default value is 0.
@@ -42,13 +42,13 @@ https://cobalt.qas.im/api/1.0/courses/list
 - - -
 <div class="param grid-container">
   <div class="grid-20">
-    `sort`
-    _optional_
+`sort`
+_optional_
   </div>
   <div class="grid-80">
-      The sorting procedure to be used on the returned list. A `+` before a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space.<br />(eg. `+id -department`)
+The sorting procedure to be used on the returned list. A `+` before a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space.<br />(eg. `+id -department`)
 
-      The default value is `+id` (sort by id, ascending).
+The default value is `+id` (sort by id, ascending).
   </div>
 </div>
 
