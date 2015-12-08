@@ -6,14 +6,14 @@ The goal with Cobalt is to foster a culture of open data at the university. Coba
 
 ## Navigation
 
-### Getting started
+#### Getting started
 
 * [Introduction](./getting-started/introduction.md)
 * [Authenticating](./getting-started/authenticating.md)
 * [Self hosting](./getting-started/self-hosting.md)
 * [Contributing](./getting-started/contributing.md)
 
-### Course API
+#### Course API
 
 * [Introduction](./course-api/introduction.md)
 * [GET courses/list](./course-api/list.md)
@@ -21,7 +21,7 @@ The goal with Cobalt is to foster a culture of open data at the university. Coba
 * [GET courses/search](./course-api/search.md)
 * [GET courses/filter](./course-api/filter.md)
 
-### Building API
+#### Building API
 
 * [Introduction](./building-api/introduction.md)
 * [GET buildings/list](./building-api/list.md)
