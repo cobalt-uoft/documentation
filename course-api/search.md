@@ -14,7 +14,7 @@ https://cobalt.qas.im/api/1.0/courses/search
   <div class="param grid-container">
     <div class="grid-20">
       <code>key</code>
-      <div class="sub">required</div>
+      <i>required</i>
     </div>
     <div class="grid-80">
       Your unique API key.
@@ -26,7 +26,7 @@ https://cobalt.qas.im/api/1.0/courses/search
   <div class="param grid-container">
     <div class="grid-20">
       <code>q</code>
-      <div class="sub">required</div>
+      <i>required</i>
     </div>
     <div class="grid-80">
       The string to perform a text search with. It is also possible to do a verbatim search by surrounding the string in double quotes.
@@ -38,7 +38,7 @@ https://cobalt.qas.im/api/1.0/courses/search
   <div class="param grid-container">
     <div class="grid-20">
       <code>limit</code>
-      <div class="sub">optional</div>
+      <i>optional</i>
     </div>
     <div class="grid-80">
       The number of results to return, up to a maximum of 100 per request. The default value is 10.
@@ -50,7 +50,7 @@ https://cobalt.qas.im/api/1.0/courses/search
   <div class="param grid-container">
     <div class="grid-20">
       <code>skip</code>
-      <div class="sub">optional</div>
+      <i>optional</i>
     </div>
     <div class="grid-80">
       The number of results to skip. The default value is 0.
@@ -62,7 +62,7 @@ https://cobalt.qas.im/api/1.0/courses/search
   <div class="param grid-container">
     <div class="grid-20">
       <code>sort</code>
-      <div class="sub">optional</div>
+      <i>optional</i>
     </div>
     <div class="grid-80">
       <p>
