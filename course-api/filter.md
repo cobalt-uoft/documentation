@@ -1,128 +1,123 @@
-{% extends "documentation/index.html" %}
+# GET courses/filter
 
-{% block parent %}Course API{% endblock %}
-{% block child %}GET courses/filter{% endblock %}
+Returns a list of courses that match specified filters.
 
-{% block main %}
-<h1>GET courses/filter</h1>
-<div class="text">
-	<p>
-		Returns a list of courses that match specified filters.
-	</p>
+## URL
 
-	<h2>URL</h2>
-	<p>
-		<pre><code class="code-block http">https://cobalt.qas.im/api/1.0/courses/filter</code></pre>
-	</p>
+```
+https://cobalt.qas.im/api/1.0/courses/filter
+```
 
-	<h2>Parameters</h2>
-	<p>
-		<div class="param grid-container">
-			<div class="grid-20">
-				<code>key</code>
-				<div class="sub">required</div>
-			</div>
-			<div class="grid-80">
-				Your unique API key.
-			</div>
-		</div>
-	</p>
-	<hr />
-	<p>
-		<div class="param grid-container">
-			<div class="grid-20">
-				<code>q</code>
-				<div class="sub">required</div>
-			</div>
-			<div class="grid-80">
-        <p>
-  				The filters to be applied, specified in the filter query format.
-        </p>
-        <p>
-  				Each filter within the query can be joined with either an <code>AND</code> or an <code>OR</code>.
-        </p>
-        <p>
-  				For numerical filters:
-          <ul>
-            <li>No operator indicates equal to (eg. <code>breadth:5</code>)</li>
-            <li><code>&gt;</code> indicates greater than (eg. <code>class_size:>30</code>)</li>
-            <li><code>&lt;</code> indicates less than (eg. <code>class_enrolment:>1</code>)</li>
-            <li><code>&gt;=</code> indicates greater than or equal to (eg. <code>start_time:>=18</code>)</li>
-            <li><code>&lt;=</code> indicates less than or equal to (eg. <code>course_level:<=200</code>)</li>
-          </ul>
-        </p>
-        <p>
-  				For string filters:
-          <ul>
-            <li>No operator indicates contains (eg. <code>code:"CSC"</code>)</li>
-            <li><code>-</code> indicates not (eg. <code>department:"-architecture"</code>)</li>
-          </ul>
-        </p>
-        <p>
-  				Examples of filter combinations:
-          <ul>
-            <li><code>instructor:"D Liu" AND code:"CSC" AND level:<=200</code></li>
-            <li><code>breadth:2 OR breadth:3</code></li>
-            <li><code>prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"</code></li>
-          </ul>
-        </p>
-        <p>
-          When parsing filter combinations, Cobalt allows <code>AND</code> to take precendence during logic splitting.
-        </p>
-        <p>
-          For filters that involve properties from <code>meeting_sections</code>, an additional key is returned called <code>matched_meeting_sections</code>, which contains only the meeting sections that match the filter.
-        </p>
-			</div>
-		</div>
-	</p>
-  <hr />
-  <p>
-		<div class="param grid-container">
-			<div class="grid-20">
-				<code>limit</code>
-				<div class="sub">optional</div>
-			</div>
-			<div class="grid-80">
-				The number of results to return, up to a maximum of 100 per request. The default value is 10.
-			</div>
-		</div>
-	</p>
-	<hr />
-	<p>
-		<div class="param grid-container">
-			<div class="grid-20">
-				<code>skip</code>
-				<div class="sub">optional</div>
-			</div>
-			<div class="grid-80">
-				The number of results to skip. The default value is 0.
-			</div>
-		</div>
-	</p>
-  <hr />
-	<p>
-		<div class="param grid-container">
-			<div class="grid-20">
-				<code>sort</code>
-				<div class="sub">optional</div>
-			</div>
-			<div class="grid-80">
-        <p>
-          The sorting procedure to be used on the returned list. A <code>+</code> before a parameter implies ascending, and a <code>-</code> implies descending. You can also stack procedures, separating them with a space.<br />(eg. <code>+id -department</code>)
-        </p>
-        <p>
-          The default value is <code>+id</code> (sort by id, ascending).
-        </p>
-			</div>
-		</div>
-	</p>
+## Parameters
 
-	<h2>Example</h2>
-	<p>
-		<pre><code class="code-block http">https://cobalt.qas.im/api/1.0/courses/filter?q=instructor:"D Liu" AND code:"CSC" AND level:<=200</code></pre>
-	</p>
-	<p>
-		<pre><code class="code-block json">
+<p>
+  <div class="param grid-container">
+    <div class="grid-20">
+      <code>key</code>
+      <div class="sub">required</div>
+    </div>
+    <div class="grid-80">
+      Your unique API key.
+    </div>
+  </div>
+</p>
+- - -
+<p>
+  <div class="param grid-container">
+    <div class="grid-20">
+      <code>q</code>
+      <div class="sub">required</div>
+    </div>
+    <div class="grid-80">
+      <p>
+        The filters to be applied, specified in the filter query format.
+      </p>
+      <p>
+        Each filter within the query can be joined with either an <code>AND</code> or an <code>OR</code>.
+      </p>
+      <p>
+        For numerical filters:
+        <ul>
+          <li>No operator indicates equal to (eg. <code>breadth:5</code>)</li>
+          <li><code>&gt;</code> indicates greater than (eg. <code>class_size:>30</code>)</li>
+          <li><code>&lt;</code> indicates less than (eg. <code>class_enrolment:>1</code>)</li>
+          <li><code>&gt;=</code> indicates greater than or equal to (eg. <code>start_time:>=18</code>)</li>
+          <li><code>&lt;=</code> indicates less than or equal to (eg. <code>course_level:<=200</code>)</li>
+        </ul>
+      </p>
+      <p>
+        For string filters:
+        <ul>
+          <li>No operator indicates contains (eg. <code>code:"CSC"</code>)</li>
+          <li><code>-</code> indicates not (eg. <code>department:"-architecture"</code>)</li>
+        </ul>
+      </p>
+      <p>
+        Examples of filter combinations:
+        <ul>
+          <li><code>instructor:"D Liu" AND code:"CSC" AND level:<=200</code></li>
+          <li><code>breadth:2 OR breadth:3</code></li>
+          <li><code>prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"</code></li>
+        </ul>
+      </p>
+      <p>
+        When parsing filter combinations, Cobalt allows <code>AND</code> to take precendence during logic splitting.
+      </p>
+      <p>
+        For filters that involve properties from <code>meeting_sections</code>, an additional key is returned called <code>matched_meeting_sections</code>, which contains only the meeting sections that match the filter.
+      </p>
+    </div>
+  </div>
+</p>
+- - -
+<p>
+  <div class="param grid-container">
+    <div class="grid-20">
+      <code>limit</code>
+      <div class="sub">optional</div>
+    </div>
+    <div class="grid-80">
+      The number of results to return, up to a maximum of 100 per request. The default value is 10.
+    </div>
+  </div>
+</p>
+- - -
+<p>
+  <div class="param grid-container">
+    <div class="grid-20">
+      <code>skip</code>
+      <div class="sub">optional</div>
+    </div>
+    <div class="grid-80">
+      The number of results to skip. The default value is 0.
+    </div>
+  </div>
+</p>
+- - -
+<p>
+  <div class="param grid-container">
+    <div class="grid-20">
+      <code>sort</code>
+      <div class="sub">optional</div>
+    </div>
+    <div class="grid-80">
+      <p>
+        The sorting procedure to be used on the returned list. A <code>+</code> before a parameter implies ascending, and a <code>-</code> implies descending. You can also stack procedures, separating them with a space.<br />(eg. <code>+id -department</code>)
+      </p>
+      <p>
+        The default value is <code>+id</code> (sort by id, ascending).
+      </p>
+    </div>
+  </div>
+</p>
+
+## Example
+
+```
+https://cobalt.qas.im/api/1.0/courses/filter?q=instructor:"D Liu" AND code:"CSC" AND level:<=200
+```
+
+```json
 [
   {
     "id":"CSC148H1F20159",
@@ -513,7 +508,5 @@
       }
     ]
   }
-]</code></pre>
-	</p>
-</div>
-{% endblock %}
+]
+```
