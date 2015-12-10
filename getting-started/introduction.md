@@ -16,4 +16,4 @@ You will need to authenticate your requests with an API key. For more informatio
 
 ## Suggestions
 
-If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an issue on the [GitHub repository](https://github.com/cobalt-uoft/cobalt/issues).
+If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an [issue](https://github.com/cobalt-uoft/cobalt/issues) on the GitHub repository.

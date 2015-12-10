@@ -13,18 +13,18 @@ The goal with Cobalt is to foster a culture of open data at the university. Coba
 
 #### Course API
 
-* [Introduction](./course-api/introduction.md)
-* [GET courses/list](./course-api/list.md)
-* [GET courses/show/:id](./course-api/show.md)
-* [GET courses/search](./course-api/search.md)
-* [GET courses/filter](./course-api/filter.md)
+* [Introduction](./endpoints/course-api/introduction.md)
+* [GET courses/list](./endpoints/course-api/list.md)
+* [GET courses/show/:id](./endpoints/course-api/show.md)
+* [GET courses/search](./endpoints/course-api/search.md)
+* [GET courses/filter](./endpoints/course-api/filter.md)
 
 #### Building API
 
-* [Introduction](./building-api/introduction.md)
-* [GET buildings/list](./building-api/list.md)
-* [GET buildings/show/:id](./building-api/show.md)
-* [GET buildings/search](./building-api/search.md)
+* [Introduction](./endpoints/building-api/introduction.md)
+* [GET buildings/list](./endpoints/building-api/list.md)
+* [GET buildings/show/:id](./endpoints/building-api/show.md)
+* [GET buildings/search](./endpoints/building-api/search.md)
 
 ## How to start
 
