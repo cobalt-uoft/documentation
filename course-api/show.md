@@ -13,7 +13,7 @@ https://cobalt.qas.im/api/1.0/courses/show/:id
 <p>
   <div class="param grid-container">
     <div class="grid-20">
-      <code>key</code>
+      <code>key</code> 
       <i>required</i>
     </div>
     <div class="grid-80">
@@ -25,7 +25,7 @@ https://cobalt.qas.im/api/1.0/courses/show/:id
 <p>
   <div class="param grid-container">
     <div class="grid-20">
-      <code>:id</code>
+      <code>:id</code> 
       <i>required</i>
     </div>
     <div class="grid-80">
