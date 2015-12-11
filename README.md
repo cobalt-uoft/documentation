@@ -6,7 +6,6 @@ The goal with Cobalt is to foster a culture of open data at the university. Coba
 
 #### Getting started
 
-* [Introduction](./getting-started/introduction.md)
 * [Authenticating](./getting-started/authenticating.md)
 * [Self hosting](./getting-started/self-hosting.md)
 * [Contributing](./getting-started/contributing.md)
@@ -38,4 +37,4 @@ You will need to authenticate your requests with an API key. For more informatio
 
 ## Suggestions
 
-If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an issue on the [GitHub repository](https://github.com/cobalt-uoft/cobalt/issues).
+If you have an idea for a web API, please let the community know by opening an [issue](https://github.com/cobalt-uoft/cobalt/issues) on the GitHub repository.
