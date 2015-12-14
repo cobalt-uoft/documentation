@@ -1,6 +1,6 @@
 # Authenticating
 
-In order to provide API request analytics and also to prevent abuse, Cobalt requires that you authenticate all of your API requests with a valid key.
+In order to provide API request analytics and prevent abuse, Cobalt requires that you authenticate all of your API requests with a valid key.
 
 You can access your unique API key from your [dashboard](https://cobalt.qas.im/dashboard).
 
