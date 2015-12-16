@@ -13,15 +13,15 @@ Cobalt is designed to foster a culture of open data at the university. Cobalt's 
 #### Course API
 
 * [Introduction](./endpoints/courses/introduction.md)
+* [GET courses/:id](./endpoints/courses/show.md)
 * [GET courses/list](./endpoints/courses/list.md)
-* [GET courses/show/:id](./endpoints/courses/show.md)
 * [GET courses/search](./endpoints/courses/search.md)
 * [GET courses/filter](./endpoints/courses/filter.md)
 
 #### Building API
 
 * [Introduction](./endpoints/buildings/introduction.md)
+* [GET buildings/:id](./endpoints/buildings/show.md)
 * [GET buildings/list](./endpoints/buildings/list.md)
-* [GET buildings/show/:id](./endpoints/buildings/show.md)
 * [GET buildings/search](./endpoints/buildings/search.md)
 * [GET buildings/filter](./endpoints/buildings/filter.md)
