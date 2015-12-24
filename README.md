@@ -1,4 +1,4 @@
-# Cobalt Documentation
+# Cobalt: Documentation
 
 Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
