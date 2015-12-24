@@ -4,7 +4,7 @@ Cobalt is an open source community. We encourage you to join us and help contrib
 
 ## Repositories
 
-[Cobalt](https://github.com/cobalt-uoft/cobalt): The web service that powers the web APIs. Built with Node.js and interfaces with MongoDB for high performance querying over JSON-like data structures.
+[Cobalt](https://github.com/cobalt-uoft/cobalt): The web service that powers the web APIs. Built with Node.js and interfaces with MongoDB for high performance querying over JSON-like data structures. (a [detailed guide](https://github.com/cobalt-uoft/cobalt/wiki) on contributing to this repository is available).
 
 [UofT Scrapers](https://github.com/cobalt-uoft/uoft-scrapers): The web scraping modules that populate Cobalt's databases. Built with Python and also distributed as a PyPI module.
 
