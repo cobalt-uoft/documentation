@@ -5,68 +5,27 @@ Returns a list of courses.
 ## URL
 
 ```
-https://cobalt.qas.im/api/1.0/courses/list
+https://cobalt.qas.im/api/1.0/courses
 ```
 
 ## Parameters
 
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>key</code>
-      <i>required</i>
-    </div>
-    <div class="grid-80">
-      Your unique API key.
-    </div>
-  </div>
-</p>
+`key` _(required)_
+Your unique API key.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>limit</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      The number of results to return, up to a maximum of 100 per request. The default value is 10.
-    </div>
-  </div>
-</p>
+`limit` _(optional)_
+The number of results to return, up to a maximum of 100 per request. The default value is 10.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>skip</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      The number of results to skip. The default value is 0.
-    </div>
-  </div>
-</p>
+`skip` _(optional)_
+The number of results to skip. The default value is 0.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>sort</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      <p>
-        The sorting procedure to be used on the returned list. A <code>+</code> before a parameter implies ascending, and a <code>-</code> implies descending. You can also stack procedures, separating them with a space.<br />(eg. <code>+id -department</code>)
-      </p>
-      <p>
-        The default value is <code>+id</code> (sort by id, ascending).
-      </p>
-    </div>
-  </div>
-</p>
+`sort` _(optional)_
+The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -department`. The default value is `+id`.
 
 ## Example
 
 ```
-https://cobalt.qas.im/api/1.0/courses/list?limit=2
+https://cobalt.qas.im/api/1.0/courses?limit=2
 ```
 
 ```json

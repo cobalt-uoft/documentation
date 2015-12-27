@@ -10,106 +10,38 @@ https://cobalt.qas.im/api/1.0/courses/filter
 
 ## Parameters
 
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>key</code>
-      <i>required</i>
-    </div>
-    <div class="grid-80">
-      Your unique API key.
-    </div>
-  </div>
-</p>
+`key` _(required)_
+Your unique API key.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>q</code>
-      <i>required</i>
-    </div>
-    <div class="grid-80">
-      <p>
-        The filters to be applied, specified in the filter query format.
-      </p>
-      <p>
-        Each filter within the query can be joined with either an <code>AND</code> or an <code>OR</code>.
-      </p>
-      <p>
-        For numerical filters:
-        <ul>
-          <li>No operator indicates equal to (eg. <code>breadth:5</code>)</li>
-          <li><code>&gt;</code> indicates greater than (eg. <code>class_size:>30</code>)</li>
-          <li><code>&lt;</code> indicates less than (eg. <code>class_enrolment:>1</code>)</li>
-          <li><code>&gt;=</code> indicates greater than or equal to (eg. <code>start_time:>=18</code>)</li>
-          <li><code>&lt;=</code> indicates less than or equal to (eg. <code>course_level:<=200</code>)</li>
-        </ul>
-      </p>
-      <p>
-        For string filters:
-        <ul>
-          <li>No operator indicates contains (eg. <code>code:"CSC"</code>)</li>
-          <li><code>-</code> indicates not (eg. <code>department:"-architecture"</code>)</li>
-        </ul>
-      </p>
-      <p>
-        Examples of filter combinations:
-        <ul>
-          <li><code>instructor:"D Liu" AND code:"CSC" AND level:<=200</code></li>
-          <li><code>breadth:2 OR breadth:3</code></li>
-          <li><code>prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"</code></li>
-        </ul>
-      </p>
-      <p>
-        When parsing filter combinations, Cobalt allows <code>AND</code> to take precendence during logic splitting.
-      </p>
-      <p>
-        For filters that involve properties from <code>meeting_sections</code>, an additional key is returned called <code>matched_meeting_sections</code>, which contains only the meeting sections that match the filter.
-      </p>
-    </div>
-  </div>
-</p>
+`q` _(required)_
+The filters to be applied, specified in the filter query format. Each filter within the query can be joined with either an `AND` or an `OR`.
+
+For numerical filters:
+* No operator indicates equal to (eg. `breadth:5`)
+* `>` indicates greater than (eg. `class_size:>30`)
+* `<` indicates less than (eg. `class_enrolment:>1`)
+* `>=` indicates greater than or equal to (eg. `start_time:>=18`)
+* `<=` indicates less than or equal to (eg. `course_level:<=200`)
+
+For string filters:
+* No operator indicates contains (eg. `code:"CSC"`)
+* `-` indicates not (eg. `department:"-architecture"`)
+
+Examples of filter combinations:
+* `instructor:"D Liu" AND code:"CSC" AND level:<=200`
+* `breadth:2 OR breadth:3`
+* `prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"`
+
+For filters that involve properties from `meeting_sections`, an additional key is returned called `matched_meeting_sections`, which contains only the meeting sections that match the filter.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>limit</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      The number of results to return, up to a maximum of 100 per request. The default value is 10.
-    </div>
-  </div>
-</p>
+`limit` _(optional)_
+The number of results to return, up to a maximum of 100 per request. The default value is 10.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>skip</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      The number of results to skip. The default value is 0.
-    </div>
-  </div>
-</p>
+`skip` _(optional)_
+The number of results to skip. The default value is 0.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>sort</code>
-      <i>optional</i>
-    </div>
-    <div class="grid-80">
-      <p>
-        The sorting procedure to be used on the returned list. A <code>+</code> before a parameter implies ascending, and a <code>-</code> implies descending. You can also stack procedures, separating them with a space.<br />(eg. <code>+id -department</code>)
-      </p>
-      <p>
-        The default value is <code>+id</code> (sort by id, ascending).
-      </p>
-    </div>
-  </div>
-</p>
+`sort` _(optional)_
+The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -department`. The default value is `+id`.
 
 ## Example
 
