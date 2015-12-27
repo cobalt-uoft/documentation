@@ -5,34 +5,16 @@ Returns a specific course identified by the `id` parameter.
 ## URL
 
 ```
-https://cobalt.qas.im/api/1.0/courses/show/:id
+https://cobalt.qas.im/api/1.0/courses/:id
 ```
 
 ## Parameters
 
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>key</code> 
-      <i>required</i>
-    </div>
-    <div class="grid-80">
-      Your unique API key.
-    </div>
-  </div>
-</p>
+`key` _(required)_
+Your unique API key.
 - - -
-<p>
-  <div class="param grid-container">
-    <div class="grid-20">
-      <code>:id</code> 
-      <i>required</i>
-    </div>
-    <div class="grid-80">
-      The unique identifier for the course.
-    </div>
-  </div>
-</p>
+`:id` _(required)_
+The unique identifier for the course.
 
 ## Example
 
