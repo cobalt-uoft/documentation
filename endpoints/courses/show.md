@@ -1,4 +1,4 @@
-# GET courses/show/:id
+# GET courses/:id
 
 Returns a specific course identified by the `id` parameter.
 

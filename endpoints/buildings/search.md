@@ -1,1 +1,1 @@
-Search
+# GET buildings/search

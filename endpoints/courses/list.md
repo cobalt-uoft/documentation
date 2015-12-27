@@ -1,4 +1,4 @@
-# GET courses/list
+# GET courses
 
 Returns a list of courses.
 

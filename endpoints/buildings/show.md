@@ -1,1 +1,1 @@
-Show
+# GET buildings/:id
