@@ -19,7 +19,7 @@ The unique identifier for the course.
 ## Example
 
 ```
-https://cobalt.qas.im/api/1.0/courses/show/CSC148H1F20159
+https://cobalt.qas.im/api/1.0/courses/CSC148H1F20159
 ```
 
 ```json
