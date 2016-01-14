@@ -1,6 +1,6 @@
 # GET courses/:id
 
-Returns a specific course identified by the `id` parameter.
+Returns a specific course identified by the `:id` parameter.
 
 ## URL
 
