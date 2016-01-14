@@ -9,7 +9,7 @@ You can access your unique API key from your [dashboard](https://cobalt.qas.im/d
 Each API request you make will require the `key` parameter. Replace `API_KEY` with your own API key. For example, in order to find information about Bahen (`080`), you would call the building API as follows:
 
 ```
-https://cobalt.qas.im/api/1.0/buildings/show/080?key=API_KEY
+https://cobalt.qas.im/api/1.0/buildings/080?key=API_KEY
 ```
 
 ```json
