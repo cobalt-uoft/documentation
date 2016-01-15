@@ -11,18 +11,23 @@ https://cobalt.qas.im/api/1.0/buildings/search
 ## Parameters
 
 `key` _(required)_
+
 Your unique API key.
 - - -
 `q` _(required)_
+
 The string to perform a text search with. It is also possible to do a verbatim search by surrounding the string in double quotes.
 - - -
 `limit` _(optional)_
+
 The number of results to return, up to a maximum of 100 per request. The default value is 10.
 - - -
 `skip` _(optional)_
+
 The number of results to skip. The default value is 0.
 - - -
 `sort` _(optional)_
+
 The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -campus`. The default value is `+id`.
 
 ## Example
