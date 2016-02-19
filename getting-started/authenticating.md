@@ -6,13 +6,10 @@ You can access your unique API key from your [dashboard](https://cobalt.qas.im/d
 
 ## Usage
 
-Each API request you make requires that you set the `Authorization` header to your API key. For example, in order to find information about Bahen (`080`), you would call the building API with the following header:
-
- - `Authorization: YOUR_API_KEY`
-
-And with the following URL:
+Each API request you make requires that you set the `Authorization` header to your API key. For example, in order to find information about Bahen (`080`), you would call the building API with the following header and URL:
 
 ```
+Authorization: YOUR_API_KEY
 https://cobalt.qas.im/api/1.0/buildings/080
 ```
 
