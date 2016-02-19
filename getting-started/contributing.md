@@ -34,4 +34,4 @@ If you find any inconsistencies in the current codebase, please do bring it up a
 
 ## Communication
 
-We use [Slack](https://cobalt-uoft.slack.com) for team communication. Join us!
+We use [Gitter](https://gitter.im/cobalt-uoft/cobalt) for team communication. Join us!
