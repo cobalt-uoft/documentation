@@ -11,7 +11,7 @@ https://cobalt.qas.im/api/1.0/buildings
 ## Parameters
 
 `key` _(required)_
-Your unique API key.
+Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
 `limit` _(optional)_
 The number of results to return, up to a maximum of 100 per request. The default value is 10.

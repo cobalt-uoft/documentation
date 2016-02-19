@@ -11,7 +11,7 @@ https://cobalt.qas.im/api/1.0/courses/filter
 ## Parameters
 
 `key` _(required)_
-Your unique API key.
+Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
 `q` _(required)_
 The filters to be applied, specified in the filter query format. Each filter within the query can be joined with either an `AND` or an `OR`.

@@ -11,7 +11,7 @@ https://cobalt.qas.im/api/1.0/courses/:id
 ## Parameters
 
 `key` _(required)_
-Your unique API key.
+Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
 `:id` _(required)_
 The unique identifier for the course.

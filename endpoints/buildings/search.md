@@ -11,7 +11,7 @@ https://cobalt.qas.im/api/1.0/buildings/search
 ## Parameters
 
 `key` _(required)_
-Your unique API key.
+Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
 `q` _(required)_
 The string to perform a text search with. It is also possible to do a verbatim search by surrounding the string in double quotes.
