@@ -35,9 +35,7 @@ That's it! Cobalt should now be running on `localhost`. You can also specifiy a 
 Use Cobalt as you normally would, under the new URL that is outputted during startup. No API key is required to authenticate requests on your local server.
 
 ###### Example
-```
-GET http://localhost:4242/1.0/buildings/008
-```
+`GET http://localhost:4242/1.0/buildings/008`
 
 #### Using Cobalt in an existing Express project
 
@@ -65,9 +63,7 @@ app.listen(port, function() {
 ```
 
 ###### Example
-```
-GET http://localhost:4242/cobalt/1.0/buildings/008
-```
+`GET http://localhost:4242/cobalt/1.0/buildings/008`
 
 ## Updating
 
