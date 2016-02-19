@@ -14,7 +14,7 @@ Ensure that the following software has been installed on your server:
 Verify that MongoDB is installed and running. Refer to the [MongoDB installation guide](https://docs.mongodb.org/manual/installation/) for more information.
 
 Next, install Cobalt.
-```bash
+```
 $ npm install -g cobalt-uoft
 ```
 
@@ -26,15 +26,13 @@ You'll need to set the following environment variable (refer to [this guide](htt
 
 To start your local instance:
 
-```bash
+```
 $ cobalt
 ```
 
 That's it! Cobalt should now be running on `localhost`. You can also specifiy a port to listen on via the `-p` command line argument (ex. `$ cobalt -p 4242`).
 
 Use Cobalt as you normally would, under the new URL that is outputted during startup. No API key is required to authenticate requests on your local server.
-
-_*Example:*_ `GET http://localhost:4242/1.0/buildings/008`
 
 #### Using Cobalt in an existing Express project
 
@@ -61,10 +59,8 @@ app.listen(port, function() {
 });
 ```
 
-_*Example:*_ `GET http://localhost:4242/cobalt/1.0/buildings/008`
-
 ## Updating
 
-```bash
+```
 npm update -g cobalt-uoft
 ```
