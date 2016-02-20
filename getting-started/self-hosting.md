@@ -30,7 +30,7 @@ To start your local instance:
 $ cobalt
 ```
 
-That's it! Cobalt should now be running on `localhost`. You can also specifiy a port to listen on via the `-p` command line argument (ex. `$ cobalt -p 4242`).
+That's it! Cobalt should now be running on `http://localhost:4242`. You can also specifiy a different port to listen on via the `-p` command line argument (ex. `$ cobalt -p 3000`).
 
 Use Cobalt as you normally would, under the new URL that is outputted during startup. No API key is required to authenticate requests on your local server.
 
