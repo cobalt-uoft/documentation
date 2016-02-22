@@ -13,7 +13,3 @@ https://cobalt.qas.im/api/1.0/
 ```
 
 You will need to authenticate your requests with an API key. For more information, refer to the [authenticating](https://github.com/cobalt-uoft/documentation/blob/master/getting-started/authenticating.md) guide.
-
-## Suggestions
-
-If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an [issue](https://github.com/cobalt-uoft/cobalt/issues) on the GitHub repository.
