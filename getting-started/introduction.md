@@ -12,4 +12,4 @@ Cobalt's web APIs are hosted at the following URL:
 https://cobalt.qas.im/api/1.0/
 ```
 
-You will need to authenticate your requests with an API key. For more information, refer to the [authenticating](https://github.com/cobalt-uoft/documentation/blob/master/getting-started/authenticating.md) guide.
+You will need to authenticate your requests with an API key. For more information, refer to the [authenticating](authenticating.md) guide.
