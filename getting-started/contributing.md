@@ -1,6 +1,6 @@
 # Contributing
 
-Cobalt is an open source community. We encourage you to join us and help contribute.
+We welcome anyone to join us and contribute.
 
 ## Repositories
 
