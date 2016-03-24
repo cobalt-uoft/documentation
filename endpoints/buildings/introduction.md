@@ -11,14 +11,17 @@ Campus building API with geographic location information.
   "name":String,
   "short_name":String,
   "campus":String,
-  "lat":Number,
-  "lng":Number,
   "address":{
     "street":String,
     "city":String,
     "province":String,
     "country":String,
     "postal":String
-  }
+  },
+  "lat":Number,
+  "lng":Number,
+  "polygon":[
+    [Number, Number]
+  ]
 }
 ```
