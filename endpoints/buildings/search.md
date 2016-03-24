@@ -39,15 +39,24 @@ https://cobalt.qas.im/api/1.0/buildings/search?q=SF
     "name":"Sandford Fleming Building",
     "short_name":"Sandford Flm",
     "campus":"UTSG",
-    "lat":43.66012,
-    "lng":-79.3951,
     "address":{
       "street":"10  King's College Road",
       "city":"Toronto",
       "province":"ON",
       "country":"Canada",
       "postal":"M5S 3G4"
-    }
+    },
+    "lat":43.66012007293862,
+    "lng":-79.3951037607479,
+    "polygon":[
+      [43.66051,-79.39503],
+      [43.66051,-79.39498],
+      [43.66027,-79.39488],
+               ...
+      [43.6604,-79.39512],
+      [43.66045,-79.39514],
+      [43.66048,-79.39502]
+    ]
   }
 ]
 ```

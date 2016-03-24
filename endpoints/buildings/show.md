@@ -29,14 +29,23 @@ https://cobalt.qas.im/api/1.0/buildings/005
   "name":"Medical Sciences Building",
   "short_name":"MSB",
   "campus":"UTSG",
-  "lat":43.66074,
-  "lng":-79.39373,
   "address":{
     "street":"1  King's College Circle",
     "city":"Toronto",
     "province":"ON",
     "country":"Canada",
     "postal":"M5S 1A8"
-  }
+  },
+  "lat":43.660739554480855,
+  "lng":-79.3937338224935,
+  "polygon":[
+    [43.66119,-79.39353],
+    [43.6611,-79.39349],
+    [43.66111,-79.39344],
+             ...
+    [43.6613,-79.39322],
+    [43.66131,-79.39319],
+    [43.66127,-79.39318]
+  ]
 }
 ```
