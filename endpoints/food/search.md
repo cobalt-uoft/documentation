@@ -46,37 +46,37 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
     lng: -79.18618,
     address: "1265 Military Trail, Toronto ON, M1C 1A4",
     hours: {
-      saturday: {
+      sunday: {
         closed: true,
         open: 0,
         close: 0
-      },
-      friday: {
-        closed: false,
-        open: 8.5,
-        close: 15
-      },
-      thursday: {
-        closed: false,
-        open: 8.5,
-        close: 20.5
-      },
-      wednesday: {
-        closed: false,
-        open: 8.5,
-        close: 20.5
-      },
-      tuesday: {
-        closed: false,
-        open: 8.5,
-        close: 16
       },
       monday: {
         closed: false,
         open: 8.5,
         close: 16
       },
-      sunday: {
+      tuesday: {
+        closed: false,
+        open: 8.5,
+        close: 16
+      },
+      wednesday: {
+        closed: false,
+        open: 8.5,
+        close: 20.5
+      },
+      thursday: {
+        closed: false,
+        open: 8.5,
+        close: 20.5
+      },
+      friday: {
+        closed: false,
+        open: 8.5,
+        close: 15
+      },
+      saturday: {
         closed: true,
         open: 0,
         close: 0
@@ -103,22 +103,12 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
     lng: -79.66209,
     address: "Davis Building, 3359 Mississauga Rd. Mississauga Ontario",
     hours: {
-      saturday: {
+      sunday: {
         closed: true,
         open: 0,
         close: 0
       },
-      friday: {
-        closed: false,
-        open: 8,
-        close: 19
-      },
-      thursday: {
-        closed: false,
-        open: 8,
-        close: 21
-      },
-      wednesday: {
+      monday: {
         closed: false,
         open: 8,
         close: 21
@@ -128,16 +118,26 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
         open: 8,
         close: 21
       },
-      monday: {
+      wednesday: {
         closed: false,
         open: 8,
         close: 21
       },
-      sunday: {
+      thursday: {
+        closed: false,
+        open: 8,
+        close: 21
+      },
+      friday: {
+        closed: false,
+        open: 8,
+        close: 19
+      },
+      saturday: {
         closed: true,
         open: 0,
         close: 0
-      }
+      }  
     },
     tags: [
       "indian",

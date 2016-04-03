@@ -36,27 +36,7 @@ https://cobalt.qas.im/api/1.0/food/451
   lng: -79.39703,
   address: "15 Devonshire Pl, Toronto, ON M5S 2C8",
   hours: {
-    saturday: {
-      closed: true,
-      open: 0,
-      close: 0
-    },
-    friday: {
-      closed: true,
-      open: 0,
-      close: 0
-    },
-    thursday: {
-      closed: true,
-      open: 0,
-      close: 0
-    },
-    wednesday: {
-      closed: true,
-      open: 0,
-      close: 0
-    },
-    tuesday: {
+    sunday: {
       closed: true,
       open: 0,
       close: 0
@@ -66,11 +46,31 @@ https://cobalt.qas.im/api/1.0/food/451
       open: 0,
       close: 0
     },
-    sunday: {
+    tuesday: {
       closed: true,
       open: 0,
       close: 0
-    }
+    },
+    wednesday: {
+      closed: true,
+      open: 0,
+      close: 0
+    },
+    thursday: {
+      closed: true,
+      open: 0,
+      close: 0
+    },
+    friday: {
+      closed: true,
+      open: 0,
+      close: 0
+    },
+    saturday: {
+      closed: true,
+      open: 0,
+      close: 0
+    },
   },
   tags: [
     "Trinity",

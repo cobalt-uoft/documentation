@@ -43,22 +43,12 @@ https://cobalt.qas.im/api/1.0/food?limit=2
     lng: -79.39178,
     address: "89 Charles Street West",
     hours: {
-      saturday: {
+      sunday: {
         closed: false,
         open: 10,
         close: 19
       },
-      friday: {
-        closed: false,
-        open: 7.5,
-        close: 19.5
-      },
-      thursday: {
-        closed: false,
-        open: 7.5,
-        close: 19.5
-      },
-      wednesday: {
+      monday: {
         closed: false,
         open: 7.5,
         close: 19.5
@@ -68,12 +58,22 @@ https://cobalt.qas.im/api/1.0/food?limit=2
         open: 7.5,
         close: 19.5
       },
-      monday: {
+      wednesday: {
         closed: false,
         open: 7.5,
         close: 19.5
       },
-      sunday: {
+      thursday: {
+        closed: false,
+        open: 7.5,
+        close: 19.5
+      },
+      friday: {
+        closed: false,
+        open: 7.5,
+        close: 19.5
+      },
+      saturday: {
         closed: false,
         open: 10,
         close: 19
@@ -99,22 +99,12 @@ https://cobalt.qas.im/api/1.0/food?limit=2
     lng: -79.40022,
     address: "16 Bancroft Ave",
     hours: {
-      saturday: {
+      sunday: {
         closed: true,
         open: 0,
         close: 0
-      },
-      friday: {
-        closed: false,
-        open: 10,
-        close: 14
-      },
-      thursday: {
-        closed: false,
-        open: 10,
-        close: 14
-      },
-      wednesday: {
+      }
+      monday: {
         closed: false,
         open: 10,
         close: 14
@@ -124,12 +114,22 @@ https://cobalt.qas.im/api/1.0/food?limit=2
         open: 10,
         close: 14
       },
-      monday: {
+      wednesday: {
         closed: false,
         open: 10,
         close: 14
       },
-      sunday: {
+      thursday: {
+        closed: false,
+        open: 10,
+        close: 14
+      },
+      friday: {
+        closed: false,
+        open: 10,
+        close: 14
+      },
+      saturday: {
         closed: true,
         open: 0,
         close: 0
