@@ -33,3 +33,4 @@ Cobalt is designed to foster a culture of open data at the university. Cobalt's 
 * [GET food](./endpoints/food/list.md)
 * [GET food/:id](./endpoints/food/show.md)
 * [GET food/search](./endpoints/food/search.md)
+* [GET food/filter](./endpoints/food/filter.md)
