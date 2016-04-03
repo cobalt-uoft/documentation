@@ -197,7 +197,7 @@ https://cobalt.qas.im/api/1.0/food/filter?q=campus:"UTSC" AND name:"Subway"
 https://cobalt.qas.im/api/1.0/food/filter?q=open:"monday(16)" AND campus: "UTM" AND tags:"quick,-snacks" OR tags:"indian"
 ```
 
-```json
+```javascript
 [
   {
     "id": "1176",
