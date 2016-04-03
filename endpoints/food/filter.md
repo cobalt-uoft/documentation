@@ -22,7 +22,7 @@ For numerical filters:
 * `<` indicates less than (eg. `lat:<60`)
 * `>=` indicates greater than or equal to (eg. `lng:>=18`)
 * `<=` indicates less than or equal to (eg. `lat:<=200`)
-* For the Food API, the only numerical keys are `lat` & `lng`
+* Currently, the only numerical keys are `lat` & `lng`
 
 For string filters:
 * No operator indicates contains (eg. `name:"Subway"`)
@@ -66,7 +66,7 @@ The sorting procedure to be used on the returned list. A `+` followed by a param
 https://cobalt.qas.im/api/1.0/food/filter?q=address:"St. George" AND tags:"pizza" AND open:"monday(>18)"
 ```
 
-```json
+```javascript
 [
   {
     "id": "366",
@@ -133,7 +133,7 @@ https://cobalt.qas.im/api/1.0/food/filter?q=address:"St. George" AND tags:"pizza
 https://cobalt.qas.im/api/1.0/food/filter?q=campus:"UTSC" AND name:"Subway"
 ```
 
-```json
+```javascript
 [
   {
     "id": "1231",

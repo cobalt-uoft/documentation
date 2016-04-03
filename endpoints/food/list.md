@@ -28,7 +28,7 @@ The sorting procedure to be used on the returned list. A `+` followed by a param
 https://cobalt.qas.im/api/1.0/food?limit=2
 ```
 
-```json
+```javascript
 [
   {
     "id": "1086",

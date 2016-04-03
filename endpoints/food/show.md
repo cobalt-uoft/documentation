@@ -22,7 +22,7 @@ The unique identifier for the course.
 https://cobalt.qas.im/api/1.0/food/451
 ```
 
-```json
+```javascript
 {
   "id": "451",
   "building_id": "602",
