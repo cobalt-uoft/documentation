@@ -22,7 +22,6 @@ For numerical filters:
 * `<` indicates less than (eg. `lat:<60`)
 * `>=` indicates greater than or equal to (eg. `lng:>=18`)
 * `<=` indicates less than or equal to (eg. `lat:<=200`)
-* Currently, the only numerical keys are `lat` & `lng`
 
 For string filters:
 * No operator indicates contains (eg. `name:"Subway"`)
@@ -31,19 +30,31 @@ For string filters:
 
 Special filters:
 * `open`
-  * Comma-separated list of days with _optional_ hours (eg. `open:"monday,tuesday(<8)"`)
-  * Include hours in parentheses after the day (eg. `open:monday(4|8),tuesday(>9)`) for specific timings
-    * No operator indicates "open at" (eg. `open:"sunday(14)" => "open on sunday at 2 pm"`)
-    * `|` indicates "open between" (eg. `open:"monday(4|8)" => "open on monday between 4 am and 8 am (inclusive)"`)
-    * `>` indicates "open after" (eg. `open:"friday(>15)" => "open on friday after 3 pm`)
-    * `<` indiciates "open before" (eg. `open:"tuesday(<10)" => "open on tuesday before 10 am"`)
-  * No parentheses checks if the vendor is open at all on that day. Use `-` to check for not open. (eg. `open:"monday,-sunday" => "open on monday and not on sunday"`)
+  * Each vendor is open a set number of hours for the 7 days of the week. Use this filter to find when a restaurant is open or closed.
+  * Separate days with a comma. Each comma represents an `AND` conjunction, an inclusive search (`OR`) can be done with: `open:"day1" OR open:"day2"`.
+  * To check for specific timings, include hours in parentheses after the day.
+    * No operator means "open at":
+      * `open:"sunday(14)"` => "open Sunday at 2 pm"
+      * `open:"monday(23.5),thursday(19)"` => "open Monday at 11:30 pm __and__ Thursday at 7 pm"
+    * `|` means "open between (inclusive)":
+      * `open:"monday(16|20.25)"` => "open Monday between 4 pm and 8:15 pm"
+      * `open:"tuesday(7|13),friday(14)` => "open Tuesday between 7 am and 1 pm __and__ Friday at 3 pm"
+    * `>` means "open after"
+      * `open:"friday(>15)"` => "open Friday after 3 pm"
+    * `<` means "open before"
+      * `open:"friday(<15)"` => "open Friday before 3 pm"
+  * No parentheses checks if the vendor is open at all on that day. Use `-` to check not open.
+    * `open:"monday,-sunday"` => "open Monday __and__ not Sunday"
+    * `open:"monday" OR open:"-sunday"` => "open Monday __or__ not open Sunday"
 * `tags`
-  * Comma-separated list of tags to filter for
-  * Each comma represents `AND`, for an inclusive search use `tags:tag1,tag2 OR tags:tag3`
-    *  `tags:"pizza,coffee"` filters vendors that offer pizza AND coffee
-    *  `tags:"pizza" OR tags:"coffee"` filters vendors that offer pizza OR vendors that offer coffee
-  * You can also use `-` for vendors that don't have the tag (eg. `tags:pizza,-coffee => vendors that offer pizza AND not coffee`
+  * Each vendor has a list of `tags` that represent what they sell or what category of food they offer. Use this key to filter through vendors based on their tags.
+  * Separate tags with a comma. Each comma represents an `AND` conjunction, for an inclusive search use: `tags:"tag1,tag2" OR tags:"tag3"`.
+  * Some examples:
+    * `tags:"pizza,coffee"` => "vendors that offer both pizza __and__ coffee"
+    * `tags:"pizza" OR tags:"coffee"` => "vendors that offer pizza __or__ vendors that offer coffee"
+  * You can also use `-` to filter for vendors that _don't_ have a certain tag:
+    * `tags:"pizza,-coffee"` => "vendors that offer pizza __and__ not coffee"
+    * `tags:"pizza" OR tags:"-coffee"` => "vendors that offer pizza __or__ vendors that don't offer coffee"
 
 Examples of filter combinations:
 * `address:"St. George" AND tags:"pizza" AND open:"monday(>18)"`
