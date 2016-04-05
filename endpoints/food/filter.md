@@ -77,66 +77,66 @@ The sorting procedure to be used on the returned list. A `+` followed by a param
 https://cobalt.qas.im/api/1.0/food/filter?q=address:"St. George" AND tags:"pizza" AND open:"monday(>18)"
 ```
 
-```javascript
+```json
 [
-  {
-    "id": "366",
-    "building_id": "006",
-    "name": "Robarts Cafeteria",
-    "short_name": "robarts_cafeteria",
-    "description": "Located on the second floor of Robarts Library across from the T-Card office, this full cafeteria includes Subway, Pizza Pizza, Chicken Chicken, Euro Market, Express, Expressos, Benne Pasta and Bento Nouveau Sushi. ",
-    "url": "",
-    "image": "http://map.utoronto.ca/_assets/_m_b/Robarts.jpg",
-    "campus": "UTSG",
-    "lat": 43.66454,
-    "lng": -79.39911,
-    "address": "130 St. George St, Toronto, ON M5S 1A5",
-    "hours": {
-      "saturday": {
-        "closed": true,
-        "open": 0,
-        "close": 0
-      },
-      "friday": {
-        "closed": false,
-        "open": 8,
-        "close": 17
-      },
-      "thursday": {
-        "closed": false,
-        "open": 8,
-        "close": 18
-      },
-      "wednesday": {
-        "closed": false,
-        "open": 8,
-        "close": 18
-      },
-      "tuesday": {
-        "closed": false,
-        "open": 8,
-        "close": 18
-      },
-      "monday": {
-        "closed": false,
-        "open": 8,
-        "close": 18
-      },
-      "sunday": {
-        "closed": true,
-        "open": 0,
-        "close": 0
-      }
-    },
-    "tags": [
-      "library",
-      "pizza",
-      "pasta",
-      "sandwiches",
-      "coffee",
-      "snacks"
-    ]
-  }
+  {
+    "id":"366",
+    "building_id":"006",
+    "name":"Robarts Cafeteria",
+    "short_name":"robarts_cafeteria",
+    "description":"Located on the second floor of Robarts Library across from the T-Card office, this full cafeteria includes Subway, Pizza Pizza, Chicken Chicken, Euro Market, Express, Expressos, Benne Pasta and Bento Nouveau Sushi. ",
+    "url":"",
+    "image":"http://map.utoronto.ca/_assets/_m_b/Robarts.jpg",
+    "campus":"UTSG",
+    "lat":43.66454,
+    "lng":-79.39911,
+    "address":"130 St. George St, Toronto, ON M5S 1A5",
+    "hours":{
+      "sunday":{
+        "closed":true,
+        "open":0,
+        "close":0
+      },
+      "monday":{
+        "closed":false,
+        "open":8,
+        "close":18
+      },
+      "tuesday":{
+        "closed":false,
+        "open":8,
+        "close":18
+      },
+      "wednesday":{
+        "closed":false,
+        "open":8,
+        "close":18
+      },
+      "thursday":{
+        "closed":false,
+        "open":8,
+        "close":18
+      },
+      "friday":{
+        "closed":false,
+        "open":8,
+        "close":17
+      },
+      "saturday":{
+        "closed":true,
+        "open":0,
+        "close":0
+      }
+    },
+    "tags":[
+      "library",
+      "pizza",
+      "pasta",
+      "sandwiches",
+      "coffee",
+      "snacks"
+    ]
+  }
 ]
 ```
 
@@ -144,134 +144,134 @@ https://cobalt.qas.im/api/1.0/food/filter?q=address:"St. George" AND tags:"pizza
 https://cobalt.qas.im/api/1.0/food/filter?q=campus:"UTSC" AND name:"Subway"
 ```
 
-```javascript
+```json
 [
-  {
-    "id": "1231",
-    "building_id": "203",
-    "name": "Subway",
-    "short_name": "subway_utsc",
-    "description": "Located on the Ground Level of the Student Centre, this food outlet offers various submarine sandwiches, salads and snacks For hours of operation, visit http://uoft.me/utscfood",
-    "url": "",
-    "image": "",
-    "campus": "UTSC",
-    "lat": 43.78508,
-    "lng": -79.18703,
-    "address": "1265 Military Trail, Toronto ON, M1C 1A4",
-    "hours": {
-      "saturday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "friday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "thursday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "wednesday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "tuesday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "monday": {
-        "closed": false,
-        "open": 7,
-        "close": 21.5
-      },
-      "sunday": {
-        "closed": false,
-        "open": 9.5,
-        "close": 21
-      }
-    },
-    "tags": [
-      "subs",
-      "salads",
-      "snacks"
-    ]
-  }
+  {
+    "id":"1231",
+    "building_id":"203",
+    "name":"Subway",
+    "short_name":"subway_utsc",
+    "description":"Located on the Ground Level of the Student Centre, this food outlet offers various submarine sandwiches, salads and snacks For hours of operation, visit http://uoft.me/utscfood",
+    "url":"",
+    "image":"",
+    "campus":"UTSC",
+    "lat":43.78508,
+    "lng":-79.18703,
+    "address":"1265 Military Trail, Toronto ON, M1C 1A4",
+    "hours":{
+      "sunday":{
+        "closed":false,
+        "open":9.5,
+        "close":21
+      },
+      "monday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      },
+      "tuesday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      },
+      "wednesday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      },
+      "thursday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      },
+      "friday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      },
+      "saturday":{
+        "closed":false,
+        "open":7,
+        "close":21.5
+      }
+    },
+    "tags":[
+      "subs",
+      "salads",
+      "snacks"
+    ]
+  }
 ]
 ```
 
 ```
-https://cobalt.qas.im/api/1.0/food/filter?q=open:"monday(16)" AND campus: "UTM" AND tags:"quick,-snacks" OR tags:"indian"
+https://cobalt.qas.im/api/1.0/food/filter?q=open:"monday(16)" AND campus:"UTM" AND tags:"quick,-snacks" OR tags:"indian"
 ```
 
-```javascript
-[
-  {
-    "id": "1176",
-    "building_id": "313",
-    "name": "Temporary Food Court",
-    "short_name": "tfc_utm",
-    "description": "The Temporary Food Court is host to several quality dining options including: *Booster Juice *Elements *International Kitchen *Pizza Pizza *Quick Cuisine *Tandoori Indian Cuisine *Tim Hortons Express *Deli (Opening 2014) *Hours subject to change",
-    "url": "",
-    "image": "http://map.utoronto.ca/_assets/_m_b/TemporayFoodCourt.png",
-    "campus": "UTM",
-    "lat": 43.54822,
-    "lng": -79.66209,
-    "address": "Davis Building, 3359 Mississauga Rd. Mississauga Ontario",
-    "hours": {
-      "saturday": {
-        "closed": true,
-        "open": 0,
-        "close": 0
-      },
-      "friday": {
-        "closed": false,
-        "open": 8,
-        "close": 19
-      },
-      "thursday": {
-        "closed": false,
-        "open": 8,
-        "close": 21
-      },
-      "wednesday": {
-        "closed": false,
-        "open": 8,
-        "close": 21
-      },
-      "tuesday": {
-        "closed": false,
-        "open": 8,
-        "close": 21
-      },
-      "monday": {
-        "closed": false,
-        "open": 8,
-        "close": 21
-      },
-      "sunday": {
-        "closed": true,
-        "open": 0,
-        "close": 0
-      }
-    },
-    "tags": [
-      "indian",
-      "international",
-      "quick",
-      "pizza",
-      "juice",
-      "food court",
-      "takeout",
-      "grab and go",
-      "smoothies",
-      "salads",
-      "coffee"
-    ]
-  }
+```json
+[  
+  {  
+    "id":"1176",
+    "building_id":"313",
+    "name":"Temporary Food Court",
+    "short_name":"tfc_utm",
+    "description":"The Temporary Food Court is host to several quality dining options including: *Booster Juice *Elements *International Kitchen *Pizza Pizza *Quick Cuisine *Tandoori Indian Cuisine *Tim Hortons Express *Deli (Opening 2014) *Hours subject to change",
+    "url":"",
+    "image":"http://map.utoronto.ca/_assets/_m_b/TemporayFoodCourt.png",
+    "campus":"UTM",
+    "lat":43.54822,
+    "lng":-79.66209,
+    "address":"Davis Building, 3359 Mississauga Rd. Mississauga Ontario",
+    "hours":{  
+      "sunday":{  
+        "closed":true,
+        "open":0,
+        "close":0
+      },
+      "monday":{  
+        "closed":false,
+        "open":8,
+        "close":21
+      },
+      "tuesday":{  
+        "closed":false,
+        "open":8,
+        "close":21
+      },
+      "wednesday":{  
+        "closed":false,
+        "open":8,
+        "close":21
+      },
+      "thursday":{  
+        "closed":false,
+        "open":8,
+        "close":21
+      },
+      "friday":{  
+        "closed":false,
+        "open":8,
+        "close":19
+      },
+      "saturday":{  
+        "closed":true,
+        "open":0,
+        "close":0
+      }
+    },
+    "tags":[  
+      "indian",
+      "international",
+      "quick",
+      "pizza",
+      "juice",
+      "food court",
+      "takeout",
+      "grab and go",
+      "smoothies",
+      "salads",
+      "coffee"
+    ]
+  }
 ]
 ```
