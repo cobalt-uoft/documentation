@@ -59,7 +59,7 @@ Special filters:
 Examples of filter combinations:
 * `address:"St. George" AND tags:"pizza" AND open:"monday(>18)"`
 * `campus:"UTSC" AND name:"Subway"`
-* `open:"monday(16)" AND campus: "UTM" AND tags:"quick,-snacks" OR tags:"indian"`
+* `open:"monday(16)" AND campus:"UTM" AND tags:"quick,-snacks" OR tags:"indian"`
 
 - - -
 `limit` _(optional)_
