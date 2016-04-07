@@ -1,6 +1,6 @@
 # Food API
 
-Campus food vender API with daily time schedules. __Note:__ Endpoints for this API are still [underdevelopment](https://github.com/cobalt-uoft/cobalt/issues/22#issuecomment-204856970).
+Campus food vender API with daily time schedules.
 
 ## Format
 
