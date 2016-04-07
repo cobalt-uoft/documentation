@@ -31,116 +31,120 @@ https://cobalt.qas.im/api/1.0/food?limit=2
 ```json
 [
   {
-    "id":"1086",
-    "building_id":"504",
-    "name":"Burwash Dining Hall",
-    "short_name":"burwash_dining_hall",
-    "description":"The main dining hall at Vic, Burwash has an all-you-care-to-eat 5 week menu that is always rotating. Burwash and Ned’s cafe do not accept UeaT meal plans or flex dollars. Mon-Fri: 7:30-3:00 and 4:00-7:30 Sat-Sun: 10:00-3:00 and 4:00-7:00",
-    "url":"http://www.vicu.utoronto.ca/hospitality/Food_Services/Burwash_Dining_Hall.htm",
+    "id":"0274",
+    "building_id":"152",
+    "name":"Rehabilitation Sciences Veda",
+    "short_name":"rehab_veda",
+    "description":"Located inside the Rehabilitation Sciences builing at 500 University Avenue, Veda offers Indian takeout. Catering available 416-961-9797. Menu includes hot meals and snacks like curries, sandwiches, pizzas & samosas. Halal & Vegan options available.",
+    "url":"http://www.vedatakeout.com/index.php",
     "image":"",
     "campus":"UTSG",
-    "lat":43.66744,
-    "lng":-79.39178,
-    "address":"89 Charles Street West",
+    "lat":43.65541,
+    "lng":-79.38912,
+    "address":"500 University Ave, Toronto, ON M5G 1V7",
     "hours":{
       "sunday":{
-        "closed":false,
-        "open":10,
-        "close":19
+        "closed":true,
+        "open":0,
+        "close":0
       },
       "monday":{
         "closed":false,
-        "open":7.5,
-        "close":19.5
+        "open":10,
+        "close":15
       },
       "tuesday":{
         "closed":false,
-        "open":7.5,
-        "close":19.5
+        "open":10,
+        "close":15
       },
       "wednesday":{
         "closed":false,
-        "open":7.5,
-        "close":19.5
+        "open":10,
+        "close":15
       },
       "thursday":{
         "closed":false,
-        "open":7.5,
-        "close":19.5
+        "open":10,
+        "close":15
       },
       "friday":{
         "closed":false,
-        "open":7.5,
-        "close":19.5
+        "open":10,
+        "close":14
       },
       "saturday":{
-        "closed":false,
-        "open":10,
-        "close":19
+        "closed":true,
+        "open":0,
+        "close":0
       }
     },
     "tags":[
-      "Burwash",
-      "Dining Hall",
-      "Meals",
-      "Chef Nathan Barratt"
+      "snacks",
+      "beverage",
+      "lug a mug",
+      "microwave",
+      "indian",
+      "samosa",
+      "curry"
     ]
   },
   {
-    "id":"1087",
-    "building_id":"056",
-    "name":"Harvest Noon Cafe",
-    "short_name":"harvest_noon_cafe-1027",
-    "description":"Located on the 2nd floor of the Graduate Students’ Union at 16 Bancroft Ave., the cafe offers vegetarian & vegan options in a relaxed and inclusive space. Open for special programming, workshops, and select meals. Check website: harvestnoon.com",
-    "url":"http://harvestnoon.com/",
-    "image":"",
+    "id":"0276",
+    "building_id":"068A",
+    "name":"Athletic Centre Starbucks",
+    "short_name":"starbucks_ac",
+    "description":"Starbucks location with seating. Serving Starbucks snacks, beverages and merchandise. Located on the lower level of the Athletic Centre.",
+    "url":"http://www.starbucks.com/ ",
+    "image":"http://map.utoronto.ca/_assets/_m_b/AC_Starbucks.jpg",
     "campus":"UTSG",
-    "lat":43.66072,
-    "lng":-79.40022,
-    "address":"16 Bancroft Ave",
+    "lat":43.66292,
+    "lng":-79.40131,
+    "address":"55 Harbord St, Toronto, ON M5S 2W6",
     "hours":{
       "sunday":{
-        "closed":true,
-        "open":0,
-        "close":0
+        "closed":false,
+        "open":9,
+        "close":18
       },
       "monday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":7,
+        "close":21
       },
       "tuesday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":7,
+        "close":21
       },
       "wednesday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":7,
+        "close":21
       },
       "thursday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":7,
+        "close":21
       },
       "friday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":7,
+        "close":21
       },
       "saturday":{
-        "closed":true,
-        "open":0,
-        "close":0
+        "closed":false,
+        "open":7,
+        "close":18
       }
     },
     "tags":[
-      "Vegan",
-      "Vegetarian",
-      "Coffee",
-      "Tea",
-      "Lunch"
+      "starbucks",
+      "coffee",
+      "beverage",
+      "muffins",
+      "cookies",
+      "ac"
     ]
   }
 ]

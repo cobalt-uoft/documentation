@@ -19,12 +19,12 @@ The unique identifier for the course.
 ## Example
 
 ```
-https://cobalt.qas.im/api/1.0/food/451
+https://cobalt.qas.im/api/1.0/food/0451
 ```
 
 ```json
 {
-  "id":"451",
+  "id":"0451",
   "building_id":"602",
   "name":"The Buttery",
   "short_name":"the-buttery",
@@ -73,11 +73,11 @@ https://cobalt.qas.im/api/1.0/food/451
     }
   },
   "tags":[
-    "Trinity",
-    "Sandwiches",
-    "Drinks",
-    "Soups",
-    "Salads"
+    "trinity",
+    "sandwiches",
+    "drinks",
+    "soups",
+    "salads"
   ]
 }
 ```

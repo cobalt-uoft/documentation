@@ -34,17 +34,17 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
 ```json
 [
   {
-    "id":"1152",
-    "building_id":"200M",
-    "name":"Beechgrove Cafe",
-    "short_name":"beechgrove_cafe_utsc",
-    "description":"This cafe on the ground level features the coffee line from Seattle's Best Coffee as well as quick grab and go snack items, sandwiches, cold beverages and Pizza Pizza slices. For hours of operation, visit http://uoft.me/utscfood",
-    "url":"http://www.utsc.utoronto.ca/~facilities/food_bev.html",
+    "id":"0274",
+    "building_id":"152",
+    "name":"Rehabilitation Sciences Veda",
+    "short_name":"rehab_veda",
+    "description":"Located inside the Rehabilitation Sciences builing at 500 University Avenue, Veda offers Indian takeout. Catering available 416-961-9797. Menu includes hot meals and snacks like curries, sandwiches, pizzas & samosas. Halal & Vegan options available.",
+    "url":"http://www.vedatakeout.com/index.php",
     "image":"",
-    "campus":"UTSC",
-    "lat":43.78286,
-    "lng":-79.18618,
-    "address":"1265 Military Trail, Toronto ON, M1C 1A4",
+    "campus":"UTSG",
+    "lat":43.65541,
+    "lng":-79.38912,
+    "address":"500 University Ave, Toronto, ON M5G 1V7",
     "hours":{
       "sunday":{
         "closed":true,
@@ -53,28 +53,28 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
       },
       "monday":{
         "closed":false,
-        "open":8.5,
-        "close":16
+        "open":10,
+        "close":15
       },
       "tuesday":{
         "closed":false,
-        "open":8.5,
-        "close":16
+        "open":10,
+        "close":15
       },
       "wednesday":{
         "closed":false,
-        "open":8.5,
-        "close":20.5
+        "open":10,
+        "close":15
       },
       "thursday":{
         "closed":false,
-        "open":8.5,
-        "close":20.5
+        "open":10,
+        "close":15
       },
       "friday":{
         "closed":false,
-        "open":8.5,
-        "close":15
+        "open":10,
+        "close":14
       },
       "saturday":{
         "closed":true,
@@ -84,24 +84,26 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
     },
     "tags":[
       "snacks",
-      "coffee",
-      "seattle's best coffee",
-      "pizza",
-      "sandwiches"
+      "beverage",
+      "lug a mug",
+      "microwave",
+      "indian",
+      "samosa",
+      "curry"
     ]
   },
   {
-    "id":"1176",
-    "building_id":"313",
-    "name":"Temporary Food Court",
-    "short_name":"tfc_utm",
-    "description":"The Temporary Food Court is host to several quality dining options including: *Booster Juice *Elements *International Kitchen *Pizza Pizza *Quick Cuisine *Tandoori Indian Cuisine *Tim Hortons Express *Deli (Opening 2014) *Hours subject to change",
+    "id":"0313",
+    "building_id":"009",
+    "name":"Hard Hat Cafe",
+    "short_name":"hard_hat_cafe",
+    "description":"Located in the basement of Sandford Fleming, this cafe is owned and operated by the Engineering Society. Offerings include coffee, baked goods, pizza, frozen entrees, beverages and snacks.",
     "url":"",
-    "image":"http://map.utoronto.ca/_assets/_m_b/TemporayFoodCourt.png",
-    "campus":"UTM",
-    "lat":43.54822,
-    "lng":-79.66209,
-    "address":"Davis Building, 3359 Mississauga Rd. Mississauga Ontario",
+    "image":"",
+    "campus":"UTSG",
+    "lat":43.66018,
+    "lng":-79.3951,
+    "address":"10 King's College Rd, Toronto, ON M5S 3G4",
     "hours":{
       "sunday":{
         "closed":true,
@@ -110,27 +112,27 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
       },
       "monday":{
         "closed":false,
-        "open":8,
-        "close":21
+        "open":10,
+        "close":17
       },
       "tuesday":{
         "closed":false,
-        "open":8,
-        "close":21
+        "open":10,
+        "close":17
       },
       "wednesday":{
         "closed":false,
-        "open":8,
-        "close":21
+        "open":10,
+        "close":17
       },
       "thursday":{
         "closed":false,
-        "open":8,
-        "close":21
+        "open":10,
+        "close":17
       },
       "friday":{
         "closed":false,
-        "open":8,
+        "open":10,
         "close":19
       },
       "saturday":{
@@ -140,17 +142,10 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
       }
     },
     "tags":[
-      "indian",
-      "international",
-      "quick",
-      "pizza",
-      "juice",
-      "food court",
-      "takeout",
-      "grab and go",
-      "smoothies",
-      "salads",
-      "coffee"
+      "engsoc",
+      "skule",
+      "pit stop",
+      "sandford"
     ]
   }
 ]
