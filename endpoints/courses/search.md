@@ -1,4 +1,4 @@
-# GET course/search
+# GET courses/search
 
 Returns a list of courses that match a text search on the `code`, `name`, and `description` keys.
 
