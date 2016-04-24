@@ -134,6 +134,8 @@ https://cobalt.qas.im/api/1.0/food/filter?q=address:"St. George" AND tag:"pizza"
 ]
 ```
 
+---
+
 ```
 https://cobalt.qas.im/api/1.0/food/filter?q=campus:"UTSC" AND name:"Subway"
 ```
@@ -197,6 +199,8 @@ https://cobalt.qas.im/api/1.0/food/filter?q=campus:"UTSC" AND name:"Subway"
   }
 ]
 ```
+
+---
 
 ```
 https://cobalt.qas.im/api/1.0/food/filter?q=open:"open:"thursday(16)" AND campus:"UTM" AND tag:"breakfast" OR tag:"quick"

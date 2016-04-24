@@ -1,4 +1,4 @@
-# Cobalt: Documentation [<img src="https://avatars0.githubusercontent.com/u/10912859" width="20" height="20" />](https://cobalt.qas.im/documentation)
+# Cobalt: Documentation [<img src="https://cobalt.qas.im/assets/img/favicon/favicon-96x96.png" width="20" height="20" />](https://cobalt.qas.im/documentation)
 
 Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
@@ -26,6 +26,14 @@ Cobalt is designed to foster a culture of open data at the university. Cobalt's 
 * [GET buildings/:id](./endpoints/buildings/show.md)
 * [GET buildings/search](./endpoints/buildings/search.md)
 * [GET buildings/filter](./endpoints/buildings/filter.md)
+
+#### Textbook API
+
+* [Introduction](./endpoints/textbooks/introduction.md)
+* [GET textbooks](./endpoints/textbooks/list.md)
+* [GET textbooks/:id](./endpoints/textbooks/show.md)
+* [GET textbooks/search](./endpoints/textbooks/search.md)
+* [GET textbooks/filter](./endpoints/textbooks/filter.md)
 
 #### Food API
 
