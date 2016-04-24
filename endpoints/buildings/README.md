@@ -2,6 +2,14 @@
 
 Campus building API with geographic location information.
 
+#### Reference
+
+* [Introduction](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/introduction.md)
+* [GET buildings](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md)
+* [GET buildings/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/show.md)
+* [GET buildings/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/search.md)
+* [GET buildings/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/filter.md)
+
 #### Format
 
 ```js
@@ -25,11 +33,3 @@ Campus building API with geographic location information.
   ]
 }
 ```
-
-#### Reference
-
-* [Introduction](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/introduction.md)
-* [GET buildings](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md)
-* [GET buildings/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/show.md)
-* [GET buildings/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/search.md)
-* [GET buildings/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/filter.md)
