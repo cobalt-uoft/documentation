@@ -32,10 +32,10 @@ For date filters:
   4. Empty string means "current time" (eg. `date:""`)
 * Operations:
   * No operator indicates equal to (eg. `date:"2016-04-01"`)
-  * `>` indicates greater than (eg. `start:>1461474000`)
-  * `<` indicates less than (eg. `end:<""`)
-  * `>=` indicates greater than or equal to (eg. `lng:>=1461474000`)
-  * `<=` indicates less than or equal to (eg. `date:<="2016,04,01"`)
+  * `>` indicates "after" (eg. `start:>1461474000`)
+  * `<` indicates "before" (eg. `end:<""`)
+  * `>=` indicates "after" or equal to (eg. `date:>=1461474000`)
+  * `<=` indicates "before" or equal to (eg. `date:<="2016,04,01"`)
 * Date filters can be applied to:
   * date (eg. `date:"2016-04-24"`)
   * start time (eg. `start:>="2016,04,24"`)
