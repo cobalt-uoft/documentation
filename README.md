@@ -1,4 +1,4 @@
-# Cobalt: Documentation [<img src="https://avatars0.githubusercontent.com/u/10912859" width="20" height="20" />](https://cobalt.qas.im/documentation)
+# Cobalt: Documentation [<img src="https://cobalt.qas.im/assets/img/favicon/favicon-96x96.png" width="20" height="20" />](https://cobalt.qas.im/documentation)
 
 Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
