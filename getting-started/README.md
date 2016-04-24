@@ -2,7 +2,7 @@
 
 #### Reference
 
-* [Introduction](./getting-started/introduction.md)
-* [Authenticating](./getting-started/authenticating.md)
-* [Self hosting](./getting-started/self-hosting.md)
-* [Contributing](./getting-started/contributing.md)
+* [Introduction](./introduction.md)
+* [Authenticating](./authenticating.md)
+* [Self hosting](./self-hosting.md)
+* [Contributing](./contributing.md)
