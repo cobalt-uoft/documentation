@@ -4,7 +4,6 @@ Campus building API with geographic location information.
 
 #### Reference
 
-* [Introduction](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/introduction.md)
 * [GET buildings](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md)
 * [GET buildings/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/show.md)
 * [GET buildings/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/search.md)
