@@ -17,27 +17,19 @@ Undergraduate course API with up to date calendar and timetable information. Thi
   "level":Number,
   "campus":String,
   "term":String,
-  "breadths":[
-    Number
-  ],
-  "meeting_sections":[
-    {
-      "code":String,
-      "instructors":[
-        String
-      ],
-      "times":[
-        {
-          "day":String,
-          "start":Number,
-          "end":Number,
-          "duration":Number,
-          "location":String
-        }
-      ],
-      "size":Number,
-      "enrolment":Number
-    }
-  ]
+  "breadths":[Number],
+  "meeting_sections":[{
+    "code":String,
+    "instructors":[String],
+    "times":[{
+      "day":String,
+      "start":Number,
+      "end":Number,
+      "duration":Number,
+      "location":String
+    }],
+    "size":Number,
+    "enrolment":Number
+  }]
 }
 ```
