@@ -2,6 +2,13 @@
 
 Undergraduate course API with up to date calendar and timetable information. This API shows course information for the current school year.
 
+#### Reference
+
+* [GET courses](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/list.md)
+* [GET courses/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/show.md)
+* [GET courses/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/search.md)
+* [GET courses/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/filter.md)
+
 #### Format
 
 ```js
@@ -33,11 +40,3 @@ Undergraduate course API with up to date calendar and timetable information. Thi
   }]
 }
 ```
-
-#### Reference
-
-* [Introduction](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/introduction.md)
-* [GET courses](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/list.md)
-* [GET courses/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/show.md)
-* [GET courses/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/search.md)
-* [GET courses/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/filter.md)
