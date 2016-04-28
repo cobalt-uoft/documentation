@@ -1,15 +1,18 @@
-## Food API
+# Food API
 
 Campus food vender API with daily time schedules.
 
-#### Reference
+<div class="reference">
+  <h2>Reference</h2>
+  <ul>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/list.md">GET food</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/show.md">GET food/:id</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/search.md">GET food/search</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/filter.md">GET food/filter</a></li>
+  </ul>
+</div>
 
-* [GET food](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/list.md)
-* [GET food/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/show.md)
-* [GET food/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/search.md)
-* [GET food/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/filter.md)
-
-#### Format
+## Format
 
 ```js
 {

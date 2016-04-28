@@ -1,15 +1,18 @@
-## Building API
+# Building API
 
 Campus building API with geographic location information.
 
-#### Reference
+<div class="reference">
+  <h2>Reference</h2>
+  <ul>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md">GET buildings</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/show.md">GET buildings/:id</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/search.md">GET buildings/search</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/filter.md">GET buildings/filter</a></li>
+  </ul>
+</div>
 
-* [GET buildings](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md)
-* [GET buildings/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/show.md)
-* [GET buildings/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/search.md)
-* [GET buildings/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/filter.md)
-
-#### Format
+## Format
 
 ```js
 {

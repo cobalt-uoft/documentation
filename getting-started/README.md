@@ -1,8 +1,25 @@
 # Getting started
 
-#### Reference
+Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
-* [Introduction](./introduction.md)
-* [Authenticating](./authenticating.md)
-* [Self hosting](./self-hosting.md)
-* [Contributing](./contributing.md)
+Cobalt is designed to foster a culture of open data at the university. Cobalt's web APIs are free to use and also free to contribute to.
+
+<div class="reference">
+  <h2>Reference</h2>
+  <ul>
+    <li><a href="./authenticating.md">Authenticating</a></li>
+    <li><a href="./self-hosting.md">Self hosting</a></li>
+    <li><a href="./contributing.md">Contributing</a></li>
+  </ul>
+</div>
+
+## How to start
+
+Cobalt's web APIs are hosted at the following URL:
+
+```
+https://cobalt.qas.im/api/1.0/
+```
+
+You will need to authenticate your requests with an API key. For more information, refer to the [authenticating](authenticating.md) guide.
+

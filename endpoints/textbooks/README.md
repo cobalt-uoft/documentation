@@ -1,15 +1,18 @@
-## Textbook API
+# Textbook API
 
 Undergraduate textbook API with book details and which courses they are required for. This API shows textbook information for the current school session.
 
-#### Reference
+<div class="reference">
+  <h2>Reference</h2>
+  <ul>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/list.md">GET textbooks</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/show.md">GET textbooks/:id</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/search.md">GET textbooks/search</a></li>
+    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/filter.md">GET textbooks/filter</a></li>
+  </ul>
+</div>
 
-* [GET textbooks](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/list.md)
-* [GET textbooks/:id](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/show.md)
-* [GET textbooks/search](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/search.md)
-* [GET textbooks/filter](https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/filter.md)
-
-#### Format
+## Format
 
 ```js
 {  
