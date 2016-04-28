@@ -1,4 +1,4 @@
-## Course API
+# Course API
 
 Undergraduate course API with up to date calendar and timetable information. This API shows course information for the current school year.
 
