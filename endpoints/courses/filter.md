@@ -20,12 +20,12 @@ For numerical and time filters:
 * No operator indicates equal to (eg. `breadth:5`)
 * `>` indicates greater than (eg. `class_size:>30`)
 * `<` indicates less than (eg. `class_enrolment:>1`)
-* `>=` indicates greater than or equal to (eg. `start_time:>=18`)
+* `>=` indicates greater than or equal to (eg. `start_time:>=64800`)
 * `<=` indicates less than or equal to (eg. `course_level:<=200`)
 
 For string filters:
 * No operator indicates contains (eg. `code:"CSC"`)
-* `-` indicates not (eg. `department:"-architecture"`)
+* `-` indicates not (eg. `department:-"architecture"`)
 
 For time filters:
 * All numerical operators work with time parameters. You can provide the time as a string (i.e. `"HH:MM"`).
@@ -35,7 +35,7 @@ Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
 * `breadth:2 OR breadth:3`
 * `prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"`
-* `start:>"16:00" AND duration:10800`
+* `start_time:>"16:00" AND duration:10800`
 
 For filters that involve properties from `meeting_sections`, an additional key is returned called `matched_meeting_sections`, which contains only the meeting sections that match the filter.
 - - -
