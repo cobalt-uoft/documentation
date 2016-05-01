@@ -28,7 +28,7 @@ For string filters:
 * `-` indicates not (eg. `department:-"architecture"`)
 
 For time filters:
-* All numerical operators work with time parameters. You can provide the time as a string (i.e. `"HH:MM"`).
+* All numerical operators work with time keys. You can provide the time as a string (i.e. `"HH:MM"`).
 * Alternatively, you can just specify the time as an integer representing the seconds since midnight.
 
 Examples of filter combinations:
@@ -47,6 +47,14 @@ The number of results to skip. The default value is 0.
 - - -
 `sort` _(optional)_
 The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -department`. The default value is `+id`.
+
+### Filter keys
+
+The following is a list of all filter keys that can be used in the `q` parameter.
+
+| Key | Type | Description |
+|-----|------|-------------|
+| x   | x    | x           |
 
 ## Example
 
