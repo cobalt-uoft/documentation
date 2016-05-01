@@ -48,7 +48,7 @@ The number of results to skip. The default value is 0.
 `sort` _(optional)_
 The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -department`. The default value is `+id`.
 
-### Filter keys
+## Filter keys
 
 The following is a list of all filter keys that can be used in the `q` parameter.
 
