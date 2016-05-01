@@ -38,6 +38,7 @@ Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
 * `breadth:2 OR breadth:3`
 * `prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"`
+* `start:>"16:00" AND duration:10800`
 
 For filters that involve properties from `meeting_sections`, an additional key is returned called `matched_meeting_sections`, which contains only the meeting sections that match the filter.
 - - -
