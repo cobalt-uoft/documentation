@@ -16,7 +16,7 @@ Your unique API key. If you do not provide this, you must set the `Authorization
 `q` _(required)_
 The filters to be applied, specified in the filter query format. Each filter within the query can be joined with either an `AND` or an `OR`.
 
-For numerical filters:
+For numerical, date, and time filters:
 * No operator indicates equal to (eg. `breadth:5`)
 * `>` indicates greater than (eg. `class_size:>30`)
 * `<` indicates less than (eg. `class_enrolment:>1`)
@@ -26,6 +26,13 @@ For numerical filters:
 For string filters:
 * No operator indicates contains (eg. `code:"CSC"`)
 * `-` indicates not (eg. `department:"-architecture"`)
+
+For date filters:
+* All numerical operators work with date parameters. You can provide the date as a string (i.e. `"YYYY-MM-DD"`).
+
+For time filters:
+* All numerical operators work with time parameters. You can provide the time as a string (i.e. `"HH:MM"`).
+* Alternatively, you can just specify the time as an integer representing the seconds since midnight.
 
 Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
