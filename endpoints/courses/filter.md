@@ -16,21 +16,27 @@ Your unique API key. If you do not provide this, you must set the `Authorization
 `q` _(required)_
 The filters to be applied, specified in the filter query format. Each filter within the query can be joined with either an `AND` or an `OR`.
 
-For numerical filters:
+For numerical and time filters:
 * No operator indicates equal to (eg. `breadth:5`)
 * `>` indicates greater than (eg. `class_size:>30`)
 * `<` indicates less than (eg. `class_enrolment:>1`)
-* `>=` indicates greater than or equal to (eg. `start_time:>=18`)
+* `>=` indicates greater than or equal to (eg. `start_time:>=64800`)
 * `<=` indicates less than or equal to (eg. `course_level:<=200`)
+* `!` indicates not (eg. `breadth:!2`)
 
 For string filters:
 * No operator indicates contains (eg. `code:"CSC"`)
-* `-` indicates not (eg. `department:"-architecture"`)
+* `!` indicates not (eg. `department:!"architecture"`)
+
+For time filters:
+* All numerical operators work with time keys. The time can be provided as a formatted string (i.e. `"HH:MM"`).
+* Alternatively, the time can be provided as an integer representing the seconds since midnight (i.e. `32400` for 9:00).
 
 Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
 * `breadth:2 OR breadth:3`
-* `prerequisites:"CSC207H1" AND code:"-MAT" OR code:"-CSC"`
+* `prerequisites:"CSC207H1" AND code:!"MAT" OR code:!"CSC"`
+* `start_time:>"16:00" AND duration:10800`
 
 For filters that involve properties from `meeting_sections`, an additional key is returned called `matched_meeting_sections`, which contains only the meeting sections that match the filter.
 - - -
@@ -42,6 +48,33 @@ The number of results to skip. The default value is 0.
 - - -
 `sort` _(optional)_
 The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -department`. The default value is `+id`.
+
+## Filter keys
+
+The following is a list of all filter keys that can be used in the `q` parameter.
+
+| Key            | Type   | Example                          |
+|----------------|--------|----------------------------------|
+| `code`         | String | `code:"CSC"`                     |
+| `name`         | String | `name:!"introduction"`           |
+| `description`  | String | `description:"natural language"` |
+| `department`   | String | `department:"linguistics"`      |
+| `division`     | String | `division:"arts"`                |
+| `prerequisite` | String | `prerequisite:"CSC148"`          |
+| `exclusion`    | String | `exclusion:"MAT137"`             |
+| `level`        | Number | `level:>200`                     |
+| `breadth`      | Number | `breadth:!2`                     |
+| `campus`       | String | `campus:"UTSG"`                  |
+| `term`         | String | `term:"2017 Fall"`               |
+| `meeting_code` | String | `meeting_code:"L0101"`           |
+| `instructor`   | String | `instructor:"D Liu"`             |
+| `day`          | String | `day:!"friday"`                  |
+| `start`        | Time   | `start:>="14:00"`                |
+| `end`          | Time   | `end:<"21:00"`                   |
+| `duration`     | Time   | `duration:"3:00"`                |
+| `location`     | String | `location:"BA"`                  |
+| `size`         | Number | `size:<=30`                      |
+| `enrolment`    | Number | `enrolment:<30`                  |
 
 ## Example
 

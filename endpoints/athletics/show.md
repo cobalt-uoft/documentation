@@ -1,11 +1,11 @@
-# GET athletics/:id
+# GET athletics/:date
 
-Returns a specific entry identified by the `:id` parameter.
+Returns a specific entry identified by the `:date` parameter.
 
 ## URL
 
 ```
-https://cobalt.qas.im/api/1.0/athletics/:id
+https://cobalt.qas.im/api/1.0/athletics/:date
 ```
 
 ## Parameters
@@ -13,34 +13,36 @@ https://cobalt.qas.im/api/1.0/athletics/:id
 `key` _(required)_
 Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
-`:id` _(required)_
-The unique identifier for the entry.
+`:date` _(required)_
+The date for the entry.
 
 ## Example
 
 ```
-https://cobalt.qas.im/api/1.0/athletics/30M
+https://cobalt.qas.im/api/1.0/athletics/2016-04-01
 ```
 
 ```json
 {
-  "id":"30M",
-  "date":"2016-04-30T00:00:00.000Z",
-  "campus":"UTM",
+  "date":"2016-04-01",
   "events":[
     {
-      "title":"Yogilates",
-      "location":"Dance Studio",
-      "building_id":"332",
-      "start_time":"2016-04-30T16:10:00.000Z",
-      "end_time":"2016-04-30T17:00:00.000Z"
-    },
-    {
       "title":"Length Swim",
+      "campus":"UTM",
       "location":"Pool",
       "building_id":"332",
-      "start_time":"2016-04-30T17:10:00.000Z",
-      "end_time":"2016-04-30T20:00:00.000Z"
+      "start_time":25200,
+      "end_time":32400,
+      "duration":7200
+    },
+    {
+      "title":"Drop-in Indoor Soccer",
+      "campus":"UTM",
+      "location":"Gym C",
+      "building_id":"332",
+      "start_time":32400,
+      "end_time":50400,
+      "duration":18000
     }
   ]
 }
