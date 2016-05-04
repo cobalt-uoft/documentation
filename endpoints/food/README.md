@@ -2,7 +2,7 @@
 
 Campus food vender API with daily time schedules.
 
-<div class="reference">
+<div id="reference">
   <h2>Reference</h2>
   <ul>
     <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/food/list.md">GET food</a></li>

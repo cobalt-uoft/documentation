@@ -2,7 +2,7 @@
 
 Campus building API with geographic location information.
 
-<div class="reference">
+<div id="reference">
   <h2>Reference</h2>
   <ul>
     <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/buildings/list.md">GET buildings</a></li>

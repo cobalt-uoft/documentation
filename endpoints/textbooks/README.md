@@ -2,7 +2,7 @@
 
 Undergraduate textbook API with book details and which courses they are required for. This API shows textbook information for the current school session.
 
-<div class="reference">
+<div id="reference">
   <h2>Reference</h2>
   <ul>
     <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/textbooks/list.md">GET textbooks</a></li>

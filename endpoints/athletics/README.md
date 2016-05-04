@@ -2,7 +2,7 @@
 
 Monthly campus athletics API with daily timings. As of right now, data is only available for UTSC and UTM.
 
-<div class="reference">
+<div id="reference">
   <h2>Reference</h2>
   <ul>
     <li><a href="./list.md">GET athletics</a></li>

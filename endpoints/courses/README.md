@@ -2,7 +2,7 @@
 
 Undergraduate course API with up to date calendar and timetable information. This API shows course information for the current school year.
 
-<div class="reference">
+<div id="reference">
   <h2>Reference</h2>
   <ul>
     <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/courses/list.md">GET courses</a></li>

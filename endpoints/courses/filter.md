@@ -28,8 +28,8 @@ For string filters:
 * `-` indicates not (eg. `department:-"architecture"`)
 
 For time filters:
-* All numerical operators work with time keys. You can provide the time as a string (i.e. `"HH:MM"`).
-* Alternatively, you can just specify the time as an integer representing the seconds since midnight.
+* All numerical operators work with time keys. The time can be provided as a formatted string (i.e. `"HH:MM"`).
+* Alternatively, the time can be provided as an integer representing the seconds since midnight (i.e. `32400` for 9:00).
 
 Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
@@ -52,9 +52,28 @@ The sorting procedure to be used on the returned list. A `+` followed by a param
 
 The following is a list of all filter keys that can be used in the `q` parameter.
 
-| Key | Type | Description |
-|-----|------|-------------|
-| x   | x    | x           |
+| Key            | Type   | Example |
+|----------------|--------|---------|
+| `code`         | String | `code:"CSC"`                     |
+| `name`         | String | `name:!"introduction"`           |
+| `description`  | String | `description:"natural language"` |
+| `department`   | String | `department:"biochemistry"`      |
+| `division`     | String | `division:!"arts"`               |
+| `prerequisite` | String | `prerequisite:"CSC148"`          |
+| `exclusion`    | String | `exclusion:"MAT137"`             |
+| `level`        | Number | `level:>200`                     |
+| `breadth`      | Number | `breadth:!2`                     |
+| `campus`       | String | `campus:"UTSG"`                  |
+| `term`         | String | `term:"2017 Fall"`               |
+| `meeting_code` | String | `meeting_code:"L0101"`           |
+| `instructor`   | String | `instructor:"D Liu"`             |
+| `day`          | String | `day:!"friday"`                  |
+| `start`        | Time   | `start:>="14:00"`                |
+| `end`          | Time   | `end:<"21:00"`                   |
+| `duration`     | Time   | `duration:"3:00"`                |
+| `location`     | String | `location:"BA"`                  |
+| `size`         | Number | `size:<=30`                      |
+| `enrolment`    | Number | `enrolment:<30`                  |
 
 ## Example
 
