@@ -22,10 +22,11 @@ For numerical and time filters:
 * `<` indicates less than (eg. `class_enrolment:>1`)
 * `>=` indicates greater than or equal to (eg. `start_time:>=64800`)
 * `<=` indicates less than or equal to (eg. `course_level:<=200`)
+* `!` indicates not (eg. `breadth:!2`)
 
 For string filters:
 * No operator indicates contains (eg. `code:"CSC"`)
-* `-` indicates not (eg. `department:-"architecture"`)
+* `!` indicates not (eg. `department:!"architecture"`)
 
 For time filters:
 * All numerical operators work with time keys. The time can be provided as a formatted string (i.e. `"HH:MM"`).
@@ -34,7 +35,7 @@ For time filters:
 Examples of filter combinations:
 * `instructor:"D Liu" AND code:"CSC" AND level:<=200`
 * `breadth:2 OR breadth:3`
-* `prerequisites:"CSC207H1" AND code:-"MAT" OR code:-"CSC"`
+* `prerequisites:"CSC207H1" AND code:!"MAT" OR code:!"CSC"`
 * `start_time:>"16:00" AND duration:10800`
 
 For filters that involve properties from `meeting_sections`, an additional key is returned called `matched_meeting_sections`, which contains only the meeting sections that match the filter.
@@ -52,13 +53,13 @@ The sorting procedure to be used on the returned list. A `+` followed by a param
 
 The following is a list of all filter keys that can be used in the `q` parameter.
 
-| Key            | Type   | Example |
-|----------------|--------|---------|
+| Key            | Type   | Example                          |
+|----------------|--------|----------------------------------|
 | `code`         | String | `code:"CSC"`                     |
 | `name`         | String | `name:!"introduction"`           |
 | `description`  | String | `description:"natural language"` |
-| `department`   | String | `department:"biochemistry"`      |
-| `division`     | String | `division:!"arts"`               |
+| `department`   | String | `department:"linguistics"`      |
+| `division`     | String | `division:"arts"`                |
 | `prerequisite` | String | `prerequisite:"CSC148"`          |
 | `exclusion`    | String | `exclusion:"MAT137"`             |
 | `level`        | Number | `level:>200`                     |
