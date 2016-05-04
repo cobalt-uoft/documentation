@@ -22,10 +22,11 @@ For numerical filters:
 * `<` indicates less than
 * `>=` indicates greater than or equal to
 * `<=` indicates less than or equal to
+* `!` indicates not
 
 For string filters:
 * No operator indicates contains (eg. `name:"University College"`)
-* `-` indicates not (eg. `campus:-"UTSC"`)
+* `!` indicates not (eg. `campus:!"UTSC"`)
 
 Examples of filter combinations:
 * `campus:"UTSG" AND street:"King's College Circle"`
@@ -40,7 +41,24 @@ The number of results to return, up to a maximum of 100 per request. The default
 The number of results to skip. The default value is 0.
 - - -
 `sort` _(optional)_
-The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `+id -campus`. The default value is `+id`.
+The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. You can also stack procedures, separating them with a space: `-campus +id`. The default value is `+id`.
+
+## Filter keys
+
+The following is a list of all filter keys that can be used in the `q` parameter.
+
+| Key            | Type   | Example               |
+|----------------|--------|-----------------------|
+| `code`         | String | `code:"UC"`           |
+| `name`         | String | `name:!"New College"` |
+| `short_name`   | String | `short_name:"Bahen"`  |
+| `campus`       | String | `campus:!"UTSG"`      |
+| `street`       | String | `street:"Bloor"`      |
+| `city`         | String | `city:"Mississauga"`  |
+| `country`      | String | `country:"Canada"`    |
+| `postal`       | String | `postal:"M5T"`        |
+| `lat`          | Number | `lat:>-43.658`        |
+| `lng`          | Number | `lng:<79.394`         |
 
 ## Example
 

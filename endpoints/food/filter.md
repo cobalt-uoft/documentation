@@ -21,11 +21,12 @@ For numerical filters:
 * `>` indicates greater than (eg. `lng:>30`)
 * `<` indicates less than (eg. `lat:<60`)
 * `>=` indicates greater than or equal to (eg. `lng:>=18`)
-* `<=` indicates less than or equal to (eg. `lat:<=200`)
+* `<=` indicates less than or equal to (eg. `lat:<=-70`)
+* `!` indicates not (eg. `lng:!40`)
 
 For string filters:
 * No operator indicates contains (eg. `name:"Subway"`)
-* `-` indicates not (eg. `campus:-"UTSC"`)
+* `!` indicates not (eg. `campus:!"UTSC"`)
 * String filters can be applied to:
   * name (eg. `name:"Subway"`)
   * address (eg. `address:"St. George"`)
