@@ -2,7 +2,7 @@
 
 Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
 
-Cobalt is designed to foster a culture of open data at the university. Cobalt's web APIs are free to use and also free to contribute to.
+You can use Cobalt to build applications and services that require the university's data.
 
 #### Getting started
 
