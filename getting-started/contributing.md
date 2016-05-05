@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome anyone to join us and contribute.
+Cobalt is designed to foster a culture of open data and open source at the university. Cobalt's web APIs are free to use and also free to contribute to.
 
 ## Repositories
 
