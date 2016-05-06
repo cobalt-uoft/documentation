@@ -7,7 +7,7 @@ Using the hosted version of Cobalt works well but may not be ideal as there is a
 Ensure that the following software has been installed on your server:
 
 * [Node.js](https://nodejs.org/) ^5.6 ([nvm](https://github.com/creationix/nvm) recommended)
-* [MongoDB](https://www.mongodb.org/) ^3.0.2
+* [MongoDB](https://www.mongodb.org/) ^3.2.0
 
 ## Installation
 
