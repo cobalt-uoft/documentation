@@ -5,9 +5,9 @@ Undergraduate exams API across all three campuses. This API shows exam informati
 <div id="reference">
   <h2>Reference</h2>
   <ul>
-    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/exams/list.md">GET exams</a></li>
-    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/exams/show.md">GET exams/:id</a></li>
-    <li><a href="https://github.com/cobalt-uoft/documentation/blob/master/endpoints/exams/filter.md">GET exams/filter</a></li>
+    <li><a href="./list.md">GET exams</a></li>
+    <li><a href="./show.md">GET exams/:id</a></li>
+    <li><a href="./filter.md">GET exams/filter</a></li>
   </ul>
 </div>
 

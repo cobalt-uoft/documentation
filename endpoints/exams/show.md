@@ -5,7 +5,7 @@ Returns a specific exam identified by the `:id` parameter.
 ## URL
 
 ```
-https:/cobalt.qas.im/api/1.0/exams/:d
+https:/cobalt.qas.im/api/1.0/exams/:id
 ```
 
 ## Parameters
