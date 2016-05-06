@@ -1,11 +1,11 @@
-# GET exams/:d
+# GET exams/:id
 
 Returns a specific exam identified by the `:id` parameter.
 
 ## URL
 
 ```
-https:/cobalt.qas.im/api/1.0/exams/:id
+https://cobalt.qas.im/api/1.0/exams/:id
 ```
 
 ## Parameters
@@ -13,13 +13,13 @@ https:/cobalt.qas.im/api/1.0/exams/:id
 `key` _(required)_
 Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
 - - -
-`:d` _(required)_
+`:id` _(required)_
 The unique identifier for the exam.
 
 ## Example
 
 ```
-https:/cobalt.qas.im/api/1.0/exams/CSC148H1F20159DEC15
+https://cobalt.qas.im/api/1.0/exams/CSC148H1F20159DEC15
 ```
 
 ```json
