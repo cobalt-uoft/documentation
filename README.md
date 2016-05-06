@@ -49,3 +49,10 @@ You can use Cobalt to build applications and services that require the universit
 * [GET athletics](./endpoints/athletics/list.md)
 * [GET athletics/:id](./endpoints/athletics/show.md)
 * [GET athletics/filter](./endpoints/athletics/filter.md)
+
+#### Exams API
+
+* [Introduction](./endpoints/exams/README.md)
+* [GET exams](./endpoints/exams/list.md)
+* [GET exams/:id](./endpoints/exams/show.md)
+* [GET exams/filter](./endpoints/exams/filter.md)
