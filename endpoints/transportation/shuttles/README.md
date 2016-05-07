@@ -6,7 +6,7 @@ Monthly UTM shuttle data.
   <h2>Reference</h2>
   <ul>
     <li><a href="./list.md">GET transportation/parking</a></li>
-    <li><a href="./show.md">GET transportation/parking/:id</a></li>
+    <li><a href="./show.md">GET transportation/parking/:date</a></li>
   </ul>
 </div>
 
