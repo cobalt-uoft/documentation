@@ -5,7 +5,7 @@ Transportation API for parking information across the three campuses as well as 
 <div id="parking-reference">
   <h2>Parking Reference</h2>
   <ul>
-    <li><a href="./transportation/parking/README.md">Parking API</a></li>
+    <li><a href="./transportation/parking/README.md">Introduction</a></li>
     <li><a href="./transportation/parking/list.md">GET transportation/parking</a></li>
     <li><a href="./transportation/parking/show.md">GET transportation/parking/:id</a></li>
     <li><a href="./transportation/parking/search.md">GET transportation/parking/search</a></li>
@@ -16,7 +16,7 @@ Transportation API for parking information across the three campuses as well as 
 <div id="shuttles-reference">
   <h2>Shuttles Reference</h2>
   <ul>
-    <li><a href="./transportation/shuttles/README.md">Shuttles API</a></li>
+    <li><a href="./transportation/shuttles/README.md">Introduction</a></li>
     <li><a href="./transportation/shuttles/list.md">GET transportation/shuttles</a></li>
     <li><a href="./transportation/shuttles/show.md">GET transportation/shuttles/:id</a></li>
   </ul>
@@ -24,4 +24,4 @@ Transportation API for parking information across the three campuses as well as 
 
 ## Format
 
-See the README for each individual endpoint.
+See the introduction for each endpoint for the respective format.

@@ -60,13 +60,13 @@ You can use Cobalt to build applications and services that require the universit
 #### Parking API
 
 * [Introduction](./endpoints/transportation/parking/README.md)
-* [GET transporation/parking](./endpoints/transporation/parking/list.md)
-* [GET transporation/parking/:id](./endpoints/transporation/parking/show.md)
-* [GET transporation/parking/filter](./endpoints/transporation/parking/filter.md)
+* [GET transportation/parking](./endpoints/transportation/parking/list.md)
+* [GET transportation/parking/:id](./endpoints/transportation/parking/show.md)
+* [GET transportation/parking/search](./endpoints/transportation/parking/search.md)
+* [GET transportation/parking/filter](./endpoints/transportation/parking/filter.md)
 
 #### Shuttles API
 
 * [Introduction](./endpoints/transportation/shuttles/README.md)
-* [GET transporation/shuttles](./endpoints/transporation/shuttles/list.md)
-* [GET transporation/shuttles/:id](./endpoints/transporation/shuttles/show.md)
-* [GET transporation/shuttles/filter](./endpoints/transporation/shuttles/filter.md)
+* [GET transportation/shuttles](./endpoints/transportation/shuttles/list.md)
+* [GET transportation/shuttles/:date](./endpoints/transportation/shuttles/show.md)
