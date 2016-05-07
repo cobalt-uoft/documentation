@@ -17,7 +17,6 @@ Your unique API key. If you do not provide this, you must set the `Authorization
 The filters to be applied, specified in the filter query format. Each filter within the query can be joined with either an `AND` or an `OR`.
 
 For numerical filters:
-* No operator indicates equal to
 * No operator indicates equal to (eg. `edition:3`)
 * `>` indicates greater than (eg. `price:>30`)
 * `<` indicates less than (eg. `price:<1`)
