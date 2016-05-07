@@ -1,0 +1,340 @@
+# GET transportation/shuttles
+
+Returns a list of routes.
+
+## URL
+
+```
+https://cobalt.qas.im/api/1.0/transportation/shuttles
+```
+
+## Parameters
+
+`key` _(required)_
+Your unique API key. If you do not provide this, you must set the `Authorization` header to your API key instead.
+- - -
+`limit` _(optional)_
+The number of results to return, up to a maximum of 100 per request. The default value is 10.
+- - -
+`skip` _(optional)_
+The number of results to skip. The default value is 0.
+- - -
+`sort` _(optional)_
+The sorting procedure to be used on the returned list. A `+` followed by a parameter implies ascending, and a `-` implies descending. The default value is `+date`.
+
+## Example
+
+```
+https://cobalt.qas.im/api/1.0/transportation/shuttles?limit=2
+```
+
+```json
+[
+  {
+    "date":"2016-05-01",
+    "routes":[
+      {
+        "id":"STGEORGE",
+        "name":"St. George Route",
+        "stops":[
+          {
+            "location":"Instructional Centre Layby",
+            "building_id":"334",
+            "times":[
+              {
+                "time":32400,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":62100,
+                "rush_hour":false,
+                "no_overload":true
+              }
+            ]
+          },
+          {
+            "location":"Hart House",
+            "building_id":"002",
+            "times":[
+              {
+                "time":36900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":66600,
+                "rush_hour":false,
+                "no_overload":true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date":"2016-05-02",
+    "routes":[
+      {
+        "id":"STGEORGE",
+        "name":"St. George Route",
+        "stops":[
+          {
+            "location":"Instructional Centre Layby",
+            "building_id":"334",
+            "times":[
+              {
+                "time":21300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":22500,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":23700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":26100,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":27300,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":30900,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":33300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":36900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":41700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":44100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":45300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":48900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":51300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":54900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":56100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":58500,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":59700,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":62100,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":63300,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":65700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":69300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":72900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":74100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":77700,
+                "rush_hour":false,
+                "no_overload":true
+              }
+            ]
+          },
+          {
+            "location":"Hart House",
+            "building_id":"002",
+            "times":[
+              {
+                "time":24900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":26100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":27300,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":30900,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":32100,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":35700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":38100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":41700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":45300,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":47700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":48900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":52500,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":54900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":58500,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":59700,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":63300,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":64500,
+                "rush_hour":true,
+                "no_overload":false
+              },
+              {
+                "time":66900,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":68100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":70500,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":74100,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":76500,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":77700,
+                "rush_hour":false,
+                "no_overload":true
+              },
+              {
+                "time":81300,
+                "rush_hour":false,
+                "no_overload":true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+```
