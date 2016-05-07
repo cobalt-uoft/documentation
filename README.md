@@ -57,7 +57,11 @@ You can use Cobalt to build applications and services that require the universit
 * [GET exams/:id](./endpoints/exams/show.md)
 * [GET exams/filter](./endpoints/exams/filter.md)
 
-#### Parking API
+#### Transportation API
+
+* [Introduction](./endpoints/transportation/README.md)
+
+##### Parking API
 
 * [Introduction](./endpoints/transportation/parking/README.md)
 * [GET transportation/parking](./endpoints/transportation/parking/list.md)
@@ -65,8 +69,22 @@ You can use Cobalt to build applications and services that require the universit
 * [GET transportation/parking/search](./endpoints/transportation/parking/search.md)
 * [GET transportation/parking/filter](./endpoints/transportation/parking/filter.md)
 
-#### Shuttles API
+##### Shuttles API
 
 * [Introduction](./endpoints/transportation/shuttles/README.md)
 * [GET transportation/shuttles](./endpoints/transportation/shuttles/list.md)
 * [GET transportation/shuttles/:date](./endpoints/transportation/shuttles/show.md)
+
+#### CDF API
+
+* [Introduction](./endpoints/cdf/README.md)
+
+##### Labs API
+
+* [Introduction](./endpoints/cdf/labs/README.md)
+* [GET cdf/labs](./endpoints/cdf/labs/list.md)
+
+##### Printers API
+
+* [Introduction](./endpoints/cdf/printers/README.md)
+* [GET cdf/printers](./endpoints/cdf/printers/list.md)
