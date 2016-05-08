@@ -1,6 +1,6 @@
 # CDF API
 
-CDF (Computing Disciplines Facility) API for real-time printer and lab usage information.
+CDF (Computing Disciplines Facility) API for real-time printer and lab usage information. Data is fetched from [arkon/cdf-scrapers](https://github.com/arkon/cdf-scrapers).
 
 <div id="reference">
   <h2>Reference</h2>
