@@ -81,7 +81,7 @@ The following is a list of all filter keys that can be used in the `q` parameter
 | `lat`          | Number | `lat:>43.5`            |
 | `lng`          | Number | `lng:<=0`              |
 | `tag`          | String | `tag:"pizza"`          |
-| `open`         | Day    | `open:monday(14:00)`   |
+| `open`         | Day    | `open:"monday(14:00)"` |
 
 ## Example
 
