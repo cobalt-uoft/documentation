@@ -50,28 +50,28 @@ https://cobalt.qas.im/api/1.0/food?limit=2
       },
       "monday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "tuesday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "wednesday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "thursday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "friday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":36000,
+        "close":50400
       },
       "saturday":{
         "closed":true,
@@ -104,38 +104,38 @@ https://cobalt.qas.im/api/1.0/food?limit=2
     "hours":{
       "sunday":{
         "closed":false,
-        "open":9,
-        "close":18
+        "open":32400,
+        "close":64800
       },
       "monday":{
         "closed":false,
-        "open":7,
-        "close":21
+        "open":25200,
+        "close":75600
       },
       "tuesday":{
         "closed":false,
-        "open":7,
-        "close":21
+        "open":25200,
+        "close":75600
       },
       "wednesday":{
         "closed":false,
-        "open":7,
-        "close":21
+        "open":25200,
+        "close":75600
       },
       "thursday":{
         "closed":false,
-        "open":7,
-        "close":21
+        "open":25200,
+        "close":75600
       },
       "friday":{
         "closed":false,
-        "open":7,
-        "close":21
+        "open":25200,
+        "close":75600
       },
       "saturday":{
         "closed":false,
-        "open":7,
-        "close":18
+        "open":25200,
+        "close":64800
       }
     },
     "tags":[

@@ -53,28 +53,28 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
       },
       "monday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "tuesday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "wednesday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "thursday":{
         "closed":false,
-        "open":10,
-        "close":15
+        "open":36000,
+        "close":54000
       },
       "friday":{
         "closed":false,
-        "open":10,
-        "close":14
+        "open":36000,
+        "close":50400
       },
       "saturday":{
         "closed":true,
@@ -112,28 +112,28 @@ https://cobalt.qas.im/api/1.0/food/search?q="pizza"&limit=2
       },
       "monday":{
         "closed":false,
-        "open":10,
-        "close":17
+        "open":36000,
+        "close":61200
       },
       "tuesday":{
         "closed":false,
-        "open":10,
-        "close":17
+        "open":36000,
+        "close":61200
       },
       "wednesday":{
         "closed":false,
-        "open":10,
-        "close":17
+        "open":36000,
+        "close":61200
       },
       "thursday":{
         "closed":false,
-        "open":10,
-        "close":17
+        "open":36000,
+        "close":61200
       },
       "friday":{
         "closed":false,
-        "open":10,
-        "close":19
+        "open":36000,
+        "close":68400
       },
       "saturday":{
         "closed":true,
