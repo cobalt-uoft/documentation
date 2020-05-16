@@ -1,3 +1,9 @@
+## Notice
+
+This project is no longer maintained, and certain pieces have been archived.
+
+All pieces of the project remain open source, in the event that a new open data initiative at the University of Toronto may benefit from the work we did during the project's lifetime.
+
 # Cobalt: Documentation [<img src="https://cobalt.qas.im/assets/img/favicon/favicon-96x96.png" width="20" height="20" />](https://cobalt.qas.im/documentation)
 
 Cobalt is a collection of open data web APIs that allow you to interface with public information from the University of Toronto.
